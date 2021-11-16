@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    }
+]

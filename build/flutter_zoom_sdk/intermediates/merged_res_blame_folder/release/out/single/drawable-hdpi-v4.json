@@ -1,0 +1,1534 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_oval_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_oval_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_seekbar_thumb.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_seekbar_thumb.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_pen2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_pen2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_16.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_16.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_switch_camera_on_toolbar_disabled.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_switch_camera_on_toolbar_disabled.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_search_blue_normal_ondark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_search_blue_normal_ondark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_keyboard_highlight.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_keyboard_highlight.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_red_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_red_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp3.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp3.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_filetype_folder.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_filetype_folder.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_status_idle.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_status_idle.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_audiocall_bg.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_audiocall_bg.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_5.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_5.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_refresh_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_refresh_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_chat_candidate.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_chat_candidate.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_stop.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_stop.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_drawer.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_drawer.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_no_zoom_contacts.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_no_zoom_contacts.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_switch_scene_unselected_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_switch_scene_unselected_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_back_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_back_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp1.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp1.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_chatto_voice_playing_f3.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_chatto_voice_playing_f3.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_sticker_preview_bg.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_sticker_preview_bg.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_spotlight_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_spotlight_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_prev_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_prev_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_phone_muted.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_phone_muted.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_chatto_voice.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_chatto_voice.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_14.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_14.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_network_bad.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_network_bad.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_video_on.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_video_on.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_no_meeting.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_no_meeting.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_speaker_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_speaker_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_icon_mymeetings_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_icon_mymeetings_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_prev_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_prev_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anim_talking_phone_2.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anim_talking_phone_2.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp5.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp5.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_circle_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_circle_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_3.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_3.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_storage_sdcard.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_storage_sdcard.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_unread_message.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_unread_message.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_next_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_next_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_center_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_center_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_filebadge_success.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_filebadge_success.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_conf_notification.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_conf_notification.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_titlebar_dark_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_titlebar_dark_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_arrow2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_arrow2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_storage_internal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_storage_internal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_picker_ic_camera_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_picker_ic_camera_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_question_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_question_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_audio_on.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_audio_on.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_unmute_video_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_unmute_video_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_chk_checked.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_chk_checked.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_clear_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_clear_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_delete_btn_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_delete_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_center_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_center_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_content_upload.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_content_upload.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_add_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_add_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_search_bg_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_search_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_h323_avatar.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_h323_avatar.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_dropdown.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_dropdown.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_btn_share.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_btn_share.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_12.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_12.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_sip_contacts_hightlight.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_sip_contacts_hightlight.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_control_highlight.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_control_highlight.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_index_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_index_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_18.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_18.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_drop_down_gray.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_drop_down_gray.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_next_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_next_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_back_on_dark_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_back_on_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_settings_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_settings_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_dropdown_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_dropdown_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_erase2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_erase2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_buddy_remove_btn_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_buddy_remove_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_lowerhand_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_lowerhand_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_decline_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_decline_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_bubble.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_bubble.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anim_talking_3.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anim_talking_3.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_undo2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_undo2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_happypath_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_happypath_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_launcher.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_launcher.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_share_drawing_btn_normal2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_share_drawing_btn_normal2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_add_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_add_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_meeting_running_info_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_meeting_running_info_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_prev_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_prev_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_question_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_question_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_invite_contacts.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_invite_contacts.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_icon_fb_selected.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_icon_fb_selected.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_1.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_1.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_notification_off.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_notification_off.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_check_highlight_selection_bg_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_check_highlight_selection_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_edit_text_small.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_edit_text_small.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_chk_unchecked.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_chk_unchecked.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_index_bottom_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_index_bottom_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_mute_phone_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_mute_phone_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tick.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tick.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_distract.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_distract.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_redo_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_redo_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_meeting_audiosource_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_meeting_audiosource_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_groupchat_avatar.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_groupchat_avatar.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_cmr_recording.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_cmr_recording.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_next_arrow_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_next_arrow_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_small_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_small_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_buddy_remove_btn_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_buddy_remove_btn_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_two_fingers_pinch.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_two_fingers_pinch.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_icon_favorite_selected.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_icon_favorite_selected.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_success_msg_attation.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_success_msg_attation.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_copy.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_copy.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pull_down_refresh.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_pull_down_refresh.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_index_bottom_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_index_bottom_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp7.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp7.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_filetype_epud.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_filetype_epud.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_star_disable.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_star_disable.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_one_finger_long_tap.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_one_finger_long_tap.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_video_off.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_video_off.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_expand_video_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_expand_video_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_next_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_next_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_line_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_line_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_image_bottom_bg.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_image_bottom_bg.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_invite_zoom_rooms.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_invite_zoom_rooms.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_next_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_next_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_addrbook_add_contact_fte.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_addrbook_add_contact_fte.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_0.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_0.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_bottom_toolbar_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_bottom_toolbar_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_check_highlight_selection_unchecked.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_check_highlight_selection_unchecked.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_delete_btn_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_delete_btn_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_invitebyphone.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_invitebyphone.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_voice_rcd_cancel_icon.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_voice_rcd_cancel_icon.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_back_white_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_back_white_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_13.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_13.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_star_ondark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_star_ondark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_sip_contacts_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_sip_contacts_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_icon_google_selected.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_icon_google_selected.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_happypath2_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_happypath2_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_one_finger_double_taps.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_one_finger_double_taps.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_conent_loading.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_conent_loading.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp6.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp6.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_control_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_control_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_sticker_preview_arrow.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_sticker_preview_arrow.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_star_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_star_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_green_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_green_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_19.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_19.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_note_tip.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_note_tip.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_back_on_dark_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_back_on_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_dropdown_focus.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_dropdown_focus.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_filebadge_paused.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_filebadge_paused.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_redo2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_redo2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_calling_top_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_calling_top_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_green_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_green_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_gallery_expand_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_gallery_expand_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_red_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_red_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_setting_nolink.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_setting_nolink.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_clear2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_clear2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_meeting_audiosource_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_meeting_audiosource_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_edit_text_alert.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_edit_text_alert.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_7.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_7.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_dialog_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_dialog_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_back_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_back_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_decline_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_decline_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_titlebar_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_titlebar_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_icon_favorite_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_icon_favorite_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_circle_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_circle_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_icon_private_group.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_icon_private_group.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_expand_video_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_expand_video_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_erase_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_erase_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_index_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_index_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_red_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_red_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_small_on_dark_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_small_on_dark_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_6.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_6.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp2.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp2.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_tick.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_tick.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_accept_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_accept_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_picker_dropdown_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_picker_dropdown_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_switch_camera_on_toolbar_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_switch_camera_on_toolbar_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_mouse_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_mouse_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_title_btn_new_chat_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_title_btn_new_chat_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_watermark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_watermark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_audio_off.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_audio_off.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_gallery_expand_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_gallery_expand_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_browser_forward_disable.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_browser_forward_disable.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_happypath2_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_happypath2_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anim_talking_phone_1.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anim_talking_phone_1.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_icon_google_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_icon_google_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_browser_back_disable.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_browser_back_disable.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_chatto_voice_playing_f2.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_chatto_voice_playing_f2.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_alert_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_alert_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_pen_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_pen_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_sip_email.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_sip_email.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_add_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_add_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_unmute_phone_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_unmute_phone_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_line2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_line2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_share_spot.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_share_spot.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_viewer_close.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_viewer_close.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_image_header_bg.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_image_header_bg.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_check_highlight_selection_checked.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_check_highlight_selection_checked.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_image_placeholder.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_image_placeholder.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_text_selected.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_text_selected.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_add_ondark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_add_ondark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_small_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_small_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_voice_rcd_hint_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_voice_rcd_hint_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_add_disable.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_add_disable.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_image_download_error.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_image_download_error.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_error_msg_attation.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_error_msg_attation.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_amp4.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_amp4.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_videomeeting.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_videomeeting.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_invite.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_invite.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_joinmeeting_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_joinmeeting_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_17.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_17.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_chk_checked_disabled.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_chk_checked_disabled.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_two_fingers_scroll.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_two_fingers_scroll.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_invite_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_invite_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_refresh_disabled.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_refresh_disabled.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_index_bottom_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_index_bottom_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_picker_ic_camera_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_picker_ic_camera_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_rectangle_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_rectangle_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_storage_external.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_storage_external.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_other_contacts_fav.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_other_contacts_fav.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_happypath2_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_happypath2_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_prev_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_prev_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_index_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_index_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_text_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_text_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_center_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_center_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_blue_logo.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_blue_logo.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_top_toolbar_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_top_toolbar_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_back_white_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_back_white_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_gallery_close_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_gallery_close_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_menu_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_menu_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_highlight2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_highlight2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_gallery_collapse_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_gallery_collapse_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_filebadge_error.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_filebadge_error.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_speaker_active.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_speaker_active.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_8.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_8.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_spotlight2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_spotlight2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_small_on_dark_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_small_on_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_intune_launcher.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_intune_launcher.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_mouse_icon.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_mouse_icon.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_next_arrow_on_notification_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_next_arrow_on_notification_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_unmute_audio_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_unmute_audio_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_share_drawing_btn_pressed2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_share_drawing_btn_pressed2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_2.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_2.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_switch_scene_selected_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_switch_scene_selected_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_browser_back.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_browser_back.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_phone_avatar.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_phone_avatar.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_15.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_15.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_small_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_small_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_refresh.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_refresh.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_chat_hint_closed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_chat_hint_closed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_alert_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_alert_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_network_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_network_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_reload.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_reload.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_keyboard_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_keyboard_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_poll_center_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_poll_center_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_title_btn_new_chat_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_title_btn_new_chat_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_picker_dropdown_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_picker_dropdown_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_recording.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_recording.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_no_ondark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_no_ondark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_status_offline.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_status_offline.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_10.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_10.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_icon_mymeetings_selected.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_icon_mymeetings_selected.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_settings_press.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_settings_press.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_no_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_no_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_filetype_apk.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_filetype_apk.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_gallery_close_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_gallery_close_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_next_arrow_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_next_arrow_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_phone_unmuted.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_phone_unmuted.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_meeting_settings_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_meeting_settings_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_icon_public_group.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_icon_public_group.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anim_talking_2.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anim_talking_2.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_refresh_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_refresh_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emailnotmatch.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emailnotmatch.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_network_good.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_network_good.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anim_talking_1.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anim_talking_1.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_accept_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_accept_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_alert_disabled.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_alert_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_undo_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_undo_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_rectangle2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_rectangle2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_11.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_11.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_bookmark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_bookmark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_happypath2_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_happypath2_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_edit_text_line.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_edit_text_line.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_mm_ic_network_unavailable.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_mm_ic_network_unavailable.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_alert_pressed.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_alert_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_h323_inmeeting.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_h323_inmeeting.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_sip_income_avatar_image_default.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_sip_income_avatar_image_default.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_highlight_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_highlight_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_star_black_48dp.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_phone_inmeeting.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_phone_inmeeting.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_switch_camera_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_switch_camera_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_nav_bookmark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_nav_bookmark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_browser_forward.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_browser_forward.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_viewer_share.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_viewer_share.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_search_blue_press_ondark.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_search_blue_press_ondark.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_joinmeeting.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_joinmeeting.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_leave_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_leave_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_one_finger_tap.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_one_finger_tap.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_selected.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_selected.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_oval2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_oval2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_switch_camera_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_switch_camera_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_green_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_green_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/ic_dialog_alert.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/ic_dialog_alert.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_voice_rcd_hint_icon.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_voice_rcd_hint_icon.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_sip_notification_5_0.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_sip_notification_5_0.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_small_on_dark_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_small_on_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_pad_no_disable.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_pad_no_disable.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_invite_roomsystem.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_invite_roomsystem.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_share_to_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_share_to_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_nosystemnotification.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_nosystemnotification.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_rc_control_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_rc_control_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_emoji_4.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_emoji_4.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_btn_more.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_ic_btn_more.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_addon_github.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_addon_github.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_default_small_normal.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-hdpi-v4/zm_btn_default_small_normal.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_tab_icon_fb_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_tab_icon_fb_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_addon_jira.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_addon_jira.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_search_bg_focused.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_search_bg_focused.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_dropdown_press.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_dropdown_press.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_im_right_chat_bg.9.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_im_right_chat_bg.9.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_gallery_collapse_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_gallery_collapse_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_anno_arrow_selected2x.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_anno_arrow_selected2x.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_screensharemeeting.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_screensharemeeting.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_time_chat_hint_closed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_time_chat_hint_closed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_next_arrow_on_notification_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_next_arrow_on_notification_pressed.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_chatto_voice_playing_f1.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_chatto_voice_playing_f1.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/question.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/question.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_ic_addon_gitlab.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_ic_addon_gitlab.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-hdpi-v4/zm_btn_meeting_running_info_pressed.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-hdpi-v4/zm_btn_meeting_running_info_pressed.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

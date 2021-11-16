@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.evilratt.flutter_zoom_sdk" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:4:5-11:19
+10        <activity android:name="com.evilratt.flutter_zoom_sdk.CustomWaitActivity" >
+10-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:5:9-10:20
+10-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:5:19-53
+11            <intent-filter>
+11-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:6:13-9:29
+12                <action android:name="com.evilratt.flutter_zoom_sdk.intent.action.JoinBeforeHost" />
+12-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:7:17-101
+12-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:7:25-98
+13
+14                <category android:name="android.intent.category.DEFAULT" />
+14-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:8:17-75
+14-->/Users/nguyencuong/Downloads/flutter 2/.pub-cache/hosted/pub.dartlang.org/flutter_zoom_sdk-0.0.6/android/src/main/AndroidManifest.xml:8:27-73
+15            </intent-filter>
+16        </activity>
+17    </application>
+18
+19</manifest>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-sw520dp-v13/zm_btn_join.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-sw520dp-v13/zm_btn_join.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-sw520dp-v13/zm_btn_backtomeeting.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-sw520dp-v13/zm_btn_backtomeeting.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-sw520dp-v13/zm_btn_schedule.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-sw520dp-v13/zm_btn_schedule.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-sw520dp-v13/zm_btn_meet_now.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-sw520dp-v13/zm_btn_meet_now.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-sw520dp-v13/zm_btn_meet_upcoming.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-sw520dp-v13/zm_btn_meet_upcoming.xml"
+    }
+]

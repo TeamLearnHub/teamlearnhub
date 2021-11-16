@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_opt_panel_pic_icon.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_opt_panel_pic_icon.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_icon_contacts_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_icon_contacts_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_opt_panel_camera_icon.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_opt_panel_camera_icon.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_emoji_btn.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_emoji_btn.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_msg_call_from.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_msg_call_from.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_opt_panel_videocall_icon.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_opt_panel_videocall_icon.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_sip_ic_mute_on.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_sip_ic_mute_on.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_more_btn.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_more_btn.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_sip_ic_record_disable.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_sip_ic_record_disable.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_icon_settings_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_icon_settings_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/ic_encryption_gcm.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/ic_encryption_gcm.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_sip_ic_mute_off_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_sip_ic_mute_off_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_notifications_off_ondark.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_notifications_off_ondark.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_icon_settings_selected.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_icon_settings_selected.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_btn_settings_normal_wlc.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_btn_settings_normal_wlc.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_notifications_off.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_notifications_off.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/ic_pic_delete.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/ic_pic_delete.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/ic_encryption_gcm_on_dark.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/ic_encryption_gcm_on_dark.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_msg_call_miss.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_msg_call_miss.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_sticker_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_sticker_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_ic_play_recording.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_ic_play_recording.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_sip_ic_record_on.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_sip_ic_record_on.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_type_emoji_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_type_emoji_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_setmode_keyboard_btn.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_sip_ic_record_off.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_sip_ic_record_off.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_icon_meeting_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_icon_meeting_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_setmode_voice_btn.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_btn_settings_press_wlc.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_btn_settings_press_wlc.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_icon_clear_search.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_icon_clear_search.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_msg_call_to.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_msg_call_to.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_avatar_thread_deleted.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_avatar_thread_deleted.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_icon_sso.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_icon_sso.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_giphy_normal.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_giphy_normal.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-anydpi-v24/zm_mm_less_btn.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-anydpi-v24/zm_mm_less_btn.xml"
+    }
+]

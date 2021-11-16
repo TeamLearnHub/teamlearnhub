@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_chat_sdk.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_chat_sdk.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_sip_neon.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_sip_neon.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_video_neon_sdk.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_video_neon_sdk.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/ios_emoji.conf",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/ios_emoji.conf"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_video_sdk.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_video_sdk.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_meeting_raisehand_chime.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_meeting_raisehand_chime.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_sip_dtmf_a.wav",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_sip_dtmf_a.wav"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_video.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_video.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/ring_original.wav",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/ring_original.wav"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_dingdong.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_dingdong.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_emoji_config.conf",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_emoji_config.conf"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_sip.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_sip.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_zpbxcacert.pem",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_zpbxcacert.pem"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_record_start.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_record_start.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_leave.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_leave.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_sip_oos.wav",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_sip_oos.wav"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_meeting_chat_chime.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_meeting_chat_chime.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_waiting_room_ding.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_waiting_room_ding.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_chat_neon.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_chat_neon.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_invitation_email_template.txt",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_invitation_email_template.txt"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_dudu.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_dudu.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_dingdong1.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_dingdong1.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_record_stop.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_record_stop.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_ring.pcm",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_ring.pcm"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_video_neon.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_video_neon.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/raw/zm_modules_chat.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/raw/zm_modules_chat.xml"
+    }
+]

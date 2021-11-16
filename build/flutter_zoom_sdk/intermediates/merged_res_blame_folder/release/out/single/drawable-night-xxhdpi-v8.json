@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-night-xxhdpi-v8/zm_addrbook_no_match.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-night-xxhdpi-v8/zm_addrbook_no_match.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-night-xxhdpi-v8/zm_mm_add_phone_number_success.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-night-xxhdpi-v8/zm_mm_add_phone_number_success.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-night-xxhdpi-v8/zm_toggle_off_disabled.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-night-xxhdpi-v8/zm_toggle_off_disabled.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-night-xxhdpi-v8/zm_toggle_off_normal.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/res/drawable-night-xxhdpi-v8/zm_toggle_off_normal.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-night-xxhdpi-v8/zm_mm_giphy_logo.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-night-xxhdpi-v8/zm_mm_giphy_logo.png"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/drawable-night-xxhdpi-v8/zm_ic_no_conversation.png",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/drawable-night-xxhdpi-v8/zm_ic_no_conversation.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/layout-sw520dp-land-v13/zm_welcome_new.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/layout-sw520dp-land-v13/zm_welcome_new.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/layout-sw520dp-land-v13/zm_wlc_viewpage.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/res/layout-sw520dp-land-v13/zm_wlc_viewpage.xml"
+    }
+]

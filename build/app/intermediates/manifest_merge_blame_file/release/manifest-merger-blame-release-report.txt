@@ -1,0 +1,371 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="learnHub.education.LearnHub"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:8:5-67
+17-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+18-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76
+19
+20    <uses-feature android:glEsVersion="0x00020000" />
+20-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:12:5-54
+20-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:12:19-51
+21    <uses-feature
+21-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:13:5-15:36
+22        android:name="android.hardware.camera"
+22-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:14:9-47
+23        android:required="false" />
+23-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:15:9-33
+24    <uses-feature
+24-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:16:5-18:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:17:9-57
+26        android:required="false" />
+26-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:18:9-33
+27    <uses-feature
+27-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:19:5-21:36
+28        android:name="android.hardware.telephony"
+28-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:20:9-50
+29        android:required="false" />
+29-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:21:9-33
+30    <uses-feature
+30-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:22:5-24:36
+31        android:name="android.hardware.bluetooth"
+31-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:23:9-50
+32        android:required="false" />
+32-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:24:9-33
+33    <uses-feature
+33-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:25:5-27:36
+34        android:name="android.hardware.microphone"
+34-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:26:9-51
+35        android:required="false" />
+35-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:27:9-33
+36
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:29:5-81
+37-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:29:22-78
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+38-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:30:5-80
+38-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:30:22-77
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:32:5-75
+39-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:32:22-72
+40    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+40-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:34:5-76
+40-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:34:22-73
+41    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+41-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:35:5-80
+41-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:35:22-77
+42    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+42-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:36:5-71
+42-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:36:22-68
+43    <uses-permission android:name="android.permission.CAMERA" />
+43-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:37:5-65
+43-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:37:22-62
+44    <uses-permission android:name="android.permission.BLUETOOTH" />
+44-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:38:5-68
+44-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:38:22-65
+45    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+45-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:39:5-74
+45-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:39:22-71
+46    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+46-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:40:5-75
+46-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:40:22-72
+47    <uses-permission android:name="android.permission.WAKE_LOCK" />
+47-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:41:5-68
+47-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:41:22-65
+48    <uses-permission android:name="android.permission.CALL_PHONE" />
+48-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:42:5-69
+48-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:42:22-66
+49    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+49-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:43:5-78
+49-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:43:22-75
+50    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+50-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:44:5-77
+50-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:44:22-74
+51    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+51-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:45:5-81
+51-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:45:22-78
+52    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+52-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:46:5-85
+52-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:46:22-82
+53
+54    <application
+54-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:9:5-49:19
+55        android:name="io.flutter.app.FlutterApplication"
+55-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:10:9-57
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+57        android:icon="@mipmap/ic_app"
+57-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:12:9-38
+58        android:label="LearnHub"
+58-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:11:9-33
+59        android:usesCleartextTraffic="true" >
+59-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:13:9-44
+60        <activity
+60-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:15:9-43:20
+61            android:name="learnHub.education.LearnHub.MainActivity"
+61-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:16:13-41
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:19:13-163
+63            android:hardwareAccelerated="true"
+63-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:20:13-47
+64            android:launchMode="singleTop"
+64-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:17:13-43
+65            android:theme="@style/LaunchTheme"
+65-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:18:13-47
+66            android:windowSoftInputMode="adjustResize" >
+66-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:21:13-55
+67
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+74-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:26:13-29:17
+75                android:name="io.flutter.embedding.android.NormalTheme"
+75-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:27:15-70
+76                android:resource="@style/NormalTheme" />
+76-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:28:15-52
+77            <!--
+78                 Displays an Android View that continues showing the launch screen
+79                 Drawable until Flutter paints its first frame, then this splash
+80                 screen fades out. A splash screen is useful to avoid any visual
+81                 gap between the end of Android's launch screen and the painting of
+82                 Flutter's first frame.
+83            -->
+84            <meta-data
+84-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:35:13-38:17
+85                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+85-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:36:15-79
+86                android:resource="@drawable/launch_background" />
+86-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:37:15-61
+87
+88            <intent-filter>
+88-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:39:13-42:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:40:17-68
+89-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:40:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:41:17-76
+91-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:41:27-74
+92            </intent-filter>
+93        </activity>
+94        <!--
+95             Don't delete the meta-data below.
+96             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+97        -->
+98        <meta-data
+98-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:46:9-48:33
+99            android:name="flutterEmbedding"
+99-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:47:13-44
+100            android:value="2" />
+100-->/Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:48:13-30
+101
+102        <activity android:name="com.evilratt.flutter_zoom_sdk.CustomWaitActivity" >
+102-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-16:20
+102-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:10:19-82
+103            <intent-filter>
+103-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-15:29
+104                <action android:name="com.evilratt.flutter_zoom_sdk.intent.action.JoinBeforeHost" />
+104-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-101
+104-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:12:25-98
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-76
+106-->[:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:14:27-73
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:49:9-53:58
+110            android:name="com.zipow.videobox.JoinByURLActivity"
+110-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:50:13-64
+111            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+111-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:51:13-139
+112            android:launchMode="singleTask"
+112-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:52:13-44
+113            android:theme="@style/ZMTheme.Transparent" />
+113-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:53:13-55
+114        <activity
+114-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:54:9-58:58
+115            android:name="com.zipow.videobox.IntegrationActivity"
+115-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:55:13-66
+116            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode"
+116-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:56:13-129
+117            android:launchMode="singleTask"
+117-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:57:13-44
+118            android:theme="@style/ZMTheme.Transparent" />
+118-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:58:13-55
+119        <activity
+119-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:59:9-63:59
+120            android:name="com.zipow.videobox.MeetingEndMessageActivity"
+120-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:60:13-72
+121            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode"
+121-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:61:13-129
+122            android:launchMode="singleTask"
+122-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:62:13-44
+123            android:theme="@style/ZMDialog.Transparent" />
+123-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:63:13-56
+124        <activity
+124-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:64:9-68:59
+125            android:name="com.zipow.videobox.JoinMeetingFailActivity"
+125-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:65:13-70
+126            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode"
+126-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:66:13-129
+127            android:launchMode="singleTask"
+127-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:67:13-44
+128            android:theme="@style/ZMDialog.Transparent" />
+128-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:68:13-56
+129        <activity
+129-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:69:9-73:56
+130            android:name="com.zipow.videobox.ConfActivityNormal"
+130-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:70:13-65
+131            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode"
+131-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:71:13-129
+132            android:hardwareAccelerated="false"
+132-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:72:13-48
+133            android:theme="@style/ZMTheme.SubWindow" />
+133-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:73:13-53
+134        <activity
+134-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:74:9-78:56
+135            android:name="com.zipow.videobox.PListActivity"
+135-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:75:13-60
+136            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode"
+136-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:76:13-129
+137            android:hardwareAccelerated="false"
+137-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:77:13-48
+138            android:theme="@style/ZMTheme.SubWindow" />
+138-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:78:13-53
+139        <activity
+139-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:79:9-83:56
+140            android:name="com.zipow.videobox.InMeetingSettingsActivity"
+140-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:80:13-72
+141            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+141-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:81:13-139
+142            android:hardwareAccelerated="false"
+142-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:82:13-48
+143            android:theme="@style/ZMTheme.SubWindow" />
+143-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:83:13-53
+144        <activity
+144-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:84:9-87:56
+145            android:name="com.zipow.videobox.ConfChatActivityOld"
+145-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:85:13-66
+146            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+146-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:86:13-139
+147            android:theme="@style/ZMTheme.SubWindow" />
+147-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:87:13-53
+148        <activity
+148-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:88:9-91:56
+149            android:name="com.zipow.videobox.CallInActivity"
+149-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:89:13-61
+150            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+150-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:90:13-139
+151            android:theme="@style/ZMTheme.SubWindow" />
+151-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:91:13-53
+152        <activity
+152-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:92:9-96:70
+153            android:name="com.zipow.videobox.SimpleActivity"
+153-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:93:13-61
+154            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+154-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:94:13-139
+155            android:theme="@style/ZMTheme.SubWindow"
+155-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:95:13-53
+156            android:windowSoftInputMode="stateHidden|adjustResize" />
+156-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:96:13-67
+157        <activity
+157-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:97:9-101:70
+158            android:name="com.zipow.videobox.SimpleInMeetingActivity"
+158-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:98:13-70
+159            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+159-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:99:13-139
+160            android:theme="@style/ZMTheme.SubWindow"
+160-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:100:13-53
+161            android:windowSoftInputMode="stateHidden|adjustResize" />
+161-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:101:13-67
+162        <activity
+162-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:102:9-105:56
+163            android:name="com.zipow.videobox.poll.PollingActivity"
+163-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:103:13-67
+164            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+164-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:104:13-139
+165            android:theme="@style/ZMTheme.SubWindow" />
+165-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:105:13-53
+166        <activity
+166-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:106:9-109:56
+167            android:name="com.zipow.videobox.poll.WebinarPollingActivity"
+167-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:107:13-74
+168            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+168-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:108:13-139
+169            android:theme="@style/ZMTheme.SubWindow" />
+169-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:109:13-53
+170        <activity
+170-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:110:9-113:56
+171            android:name="com.zipow.videobox.poll.PollingResultActivity"
+171-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:111:13-73
+172            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+172-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:112:13-139
+173            android:theme="@style/ZMTheme.SubWindow" />
+173-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:113:13-53
+174        <activity
+174-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:114:9-117:56
+175            android:name="com.zipow.videobox.poll.WebinarPollingResultActivity"
+175-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:115:13-80
+176            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+176-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:116:13-139
+177            android:theme="@style/ZMTheme.SubWindow" />
+177-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:117:13-53
+178        <activity
+178-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:118:9-121:56
+179            android:name="us.zoom.androidlib.app.ZMFileListActivity"
+179-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:119:13-69
+180            android:configChanges="orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout|keyboardHidden|uiMode|colorMode"
+180-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:120:13-139
+181            android:theme="@style/ZMTheme.SubWindow" />
+181-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:121:13-53
+182
+183        <service
+183-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:123:9-126:51
+184            android:name="com.zipow.videobox.kubi.KubiService"
+184-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:124:13-63
+185            android:exported="false"
+185-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:125:13-37
+186            android:label="@string/zm_app_name" />
+186-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:126:13-48
+187        <service
+187-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:127:9-129:40
+188            android:name="com.zipow.videobox.OnClearFromRecentService"
+188-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:128:13-71
+189            android:exported="false" />
+189-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:129:13-37
+190        <service
+190-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:130:9-134:51
+191            android:name="com.zipow.videobox.share.ScreenShareServiceForSDK"
+191-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:131:13-77
+192            android:exported="false"
+192-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:132:13-37
+193            android:foregroundServiceType="mediaProjection"
+193-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:133:13-60
+194            android:label="@string/zm_app_name" />
+194-->[:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:134:13-48
+195    </application>
+196
+197</manifest>

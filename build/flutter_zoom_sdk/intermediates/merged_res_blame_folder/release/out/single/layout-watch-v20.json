@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

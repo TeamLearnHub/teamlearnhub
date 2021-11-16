@@ -1,0 +1,546 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+MERGED from [:shared_preferences] /Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] /Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/nguyencuong/Downloads/LearnHub/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:wakelock] /Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/66219833f3dd8847e92f241f654c4d3e/transformed/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/ac436be1e5edafa5940bf9d4bab061f1/transformed/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/906dec45ec5d6e5a58460bb676b13c56/transformed/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:17:1-26:12
+MERGED from [:commonlib:] /Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/AndroidManifest.xml:2:1-11:12
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:2:1-137:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/nguyencuong/.gradle/caches/transforms-3/82399b734e2246c71ec53bf781e2ee3e/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/nguyencuong/.gradle/caches/transforms-3/c13efa4e179f1f81ca4d48f096689f65/transformed/material-1.3.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/nguyencuong/.gradle/caches/transforms-3/a9fe8e374fb7663a689ff892e740139d/transformed/constraintlayout-2.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/26f4a10cbd8c0c29c9fe07662b780178/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/72ce8c94f75c5d17f8d260fff3673bdf/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android:flexbox:2.0.1] /Users/nguyencuong/.gradle/caches/transforms-3/919d88b553c1b3744ef0a35260cba286/transformed/jetified-flexbox-2.0.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/a9ea6a87ae6c905f3f5f58b7731f09b6/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/d337e2ad22728b0fae787a71adf012e6/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/4ad093db41f5db4827ac9cecca0eaf90/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/1d3b678eeda4bc3a6721a9517b5236b1/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/f40c12aae82bb1f8a2cbf5b3d4ad2430/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/18a321d54e41a0a7bd27a4adbc6a2c61/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/c0b882a43c390109f252201fc5fca326/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/c302a7e498c1447a3f348851818db049/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/2c94b91fca1f43c3d5cfc6cf369b8101/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/6c043ea86cd82bdd0083a66920237b99/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/8b92c9e9cadbfe95e44f845ac5087caf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/bca7c010b164fa8d0be23f4d146abe0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/2e9b4fb47ec58ca8a32b67d190be9670/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/7c34ca9b65bb4137283500dc9b06beca/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/91dc76cfe344ad26536e88a483166d09/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/abf1a29d258409047c87e02c91a38b2e/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/0ecd65dd4fbabb3c0517376a689866e3/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/7c9077a6de111aba781c47c91223d266/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/2802793bae6ee700a9e4d8982ead4b45/transformed/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/b292ddee6437f1684d67534d19997741/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/240826739b0426c026a4735fafae51bb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/e3d0074ed9d109bc4a2da2608a89d877/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/28ed9bc627b8bd6064f9ce7ee1de7b9e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/ed5c244b46ddd5644cedbfe5550079d5/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/00f1568f56d0079b11700f25c1c04841/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/870ddd871067ff865a09f385f532448e/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/d2de5d37a3225d3a605615268171a628/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/b353e30702fae503f5af02bc8d511733/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/ded610b2a4c589b8b3171daadf47b3b8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/09d185d0b9391bc2ff9f3fe1b815e7a0/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+	package
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:1-50:12
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:31:5-67
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:31:5-67
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:9:5-49:19
+MERGED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-17:19
+MERGED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-17:19
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:48:5-135:19
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:48:5-135:19
+MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/nguyencuong/.gradle/caches/transforms-3/c13efa4e179f1f81ca4d48f096689f65/transformed/material-1.3.0-alpha03/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/nguyencuong/.gradle/caches/transforms-3/c13efa4e179f1f81ca4d48f096689f65/transformed/material-1.3.0-alpha03/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/nguyencuong/.gradle/caches/transforms-3/a9fe8e374fb7663a689ff892e740139d/transformed/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/nguyencuong/.gradle/caches/transforms-3/a9fe8e374fb7663a689ff892e740139d/transformed/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/00f1568f56d0079b11700f25c1c04841/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/00f1568f56d0079b11700f25c1c04841/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:11:9-33
+	android:icon
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:12:9-38
+	android:usesCleartextTraffic
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:10:9-57
+activity#learnHub.education.LearnHub.MainActivity
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:15:9-43:20
+	android:launchMode
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:17:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:20:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:21:13-55
+	android:configChanges
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:19:13-163
+	android:theme
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:16:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:26:13-29:17
+	android:resource
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:28:15-52
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:27:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:35:13-38:17
+	android:resource
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:37:15-61
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:36:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:40:17-68
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:41:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:46:9-48:33
+	android:value
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:48:13-30
+	android:name
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml:47:13-44
+uses-sdk
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences] /Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/nguyencuong/Downloads/LearnHub/build/video_player/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/nguyencuong/Downloads/LearnHub/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/nguyencuong/Downloads/LearnHub/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:wakelock] /Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/nguyencuong/Downloads/LearnHub/build/wakelock/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/66219833f3dd8847e92f241f654c4d3e/transformed/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/66219833f3dd8847e92f241f654c4d3e/transformed/jetified-exoplayer-hls-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/ac436be1e5edafa5940bf9d4bab061f1/transformed/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/ac436be1e5edafa5940bf9d4bab061f1/transformed/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/906dec45ec5d6e5a58460bb676b13c56/transformed/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/906dec45ec5d6e5a58460bb676b13c56/transformed/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [:commonlib:] /Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/AndroidManifest.xml:7:5-9:41
+MERGED from [:commonlib:] /Users/nguyencuong/.gradle/caches/transforms-3/29d730ab7c722a3bf83e253967ee6565/transformed/jetified-commonlib/AndroidManifest.xml:7:5-9:41
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:8:5-10:41
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/nguyencuong/.gradle/caches/transforms-3/82399b734e2246c71ec53bf781e2ee3e/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/nguyencuong/.gradle/caches/transforms-3/82399b734e2246c71ec53bf781e2ee3e/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/nguyencuong/.gradle/caches/transforms-3/c13efa4e179f1f81ca4d48f096689f65/transformed/material-1.3.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-alpha03] /Users/nguyencuong/.gradle/caches/transforms-3/c13efa4e179f1f81ca4d48f096689f65/transformed/material-1.3.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/nguyencuong/.gradle/caches/transforms-3/a9fe8e374fb7663a689ff892e740139d/transformed/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/nguyencuong/.gradle/caches/transforms-3/a9fe8e374fb7663a689ff892e740139d/transformed/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/9fc050977faae2d8163882ef36be81f5/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/26f4a10cbd8c0c29c9fe07662b780178/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/26f4a10cbd8c0c29c9fe07662b780178/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/72ce8c94f75c5d17f8d260fff3673bdf/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/72ce8c94f75c5d17f8d260fff3673bdf/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android:flexbox:2.0.1] /Users/nguyencuong/.gradle/caches/transforms-3/919d88b553c1b3744ef0a35260cba286/transformed/jetified-flexbox-2.0.1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:2.0.1] /Users/nguyencuong/.gradle/caches/transforms-3/919d88b553c1b3744ef0a35260cba286/transformed/jetified-flexbox-2.0.1/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/a9ea6a87ae6c905f3f5f58b7731f09b6/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/a9ea6a87ae6c905f3f5f58b7731f09b6/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/d337e2ad22728b0fae787a71adf012e6/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/d337e2ad22728b0fae787a71adf012e6/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/4ad093db41f5db4827ac9cecca0eaf90/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/4ad093db41f5db4827ac9cecca0eaf90/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/1d3b678eeda4bc3a6721a9517b5236b1/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/1d3b678eeda4bc3a6721a9517b5236b1/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/f40c12aae82bb1f8a2cbf5b3d4ad2430/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/f40c12aae82bb1f8a2cbf5b3d4ad2430/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/18a321d54e41a0a7bd27a4adbc6a2c61/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/18a321d54e41a0a7bd27a4adbc6a2c61/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/c0b882a43c390109f252201fc5fca326/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/c0b882a43c390109f252201fc5fca326/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/c302a7e498c1447a3f348851818db049/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/c302a7e498c1447a3f348851818db049/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/2c94b91fca1f43c3d5cfc6cf369b8101/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/2c94b91fca1f43c3d5cfc6cf369b8101/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/6c043ea86cd82bdd0083a66920237b99/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/6c043ea86cd82bdd0083a66920237b99/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/8b92c9e9cadbfe95e44f845ac5087caf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/8b92c9e9cadbfe95e44f845ac5087caf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/bca7c010b164fa8d0be23f4d146abe0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/bca7c010b164fa8d0be23f4d146abe0d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/2e9b4fb47ec58ca8a32b67d190be9670/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/2e9b4fb47ec58ca8a32b67d190be9670/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/7c34ca9b65bb4137283500dc9b06beca/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/7c34ca9b65bb4137283500dc9b06beca/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/nguyencuong/.gradle/caches/transforms-3/e47bf1e36238b321830b51f068e79d5d/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/91dc76cfe344ad26536e88a483166d09/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nguyencuong/.gradle/caches/transforms-3/91dc76cfe344ad26536e88a483166d09/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/abf1a29d258409047c87e02c91a38b2e/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/abf1a29d258409047c87e02c91a38b2e/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/0ecd65dd4fbabb3c0517376a689866e3/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/0ecd65dd4fbabb3c0517376a689866e3/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/7c9077a6de111aba781c47c91223d266/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/7c9077a6de111aba781c47c91223d266/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/2802793bae6ee700a9e4d8982ead4b45/transformed/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/2802793bae6ee700a9e4d8982ead4b45/transformed/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/b292ddee6437f1684d67534d19997741/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/b292ddee6437f1684d67534d19997741/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/240826739b0426c026a4735fafae51bb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/240826739b0426c026a4735fafae51bb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/e3d0074ed9d109bc4a2da2608a89d877/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/e3d0074ed9d109bc4a2da2608a89d877/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/28ed9bc627b8bd6064f9ce7ee1de7b9e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/28ed9bc627b8bd6064f9ce7ee1de7b9e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/ed5c244b46ddd5644cedbfe5550079d5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/ed5c244b46ddd5644cedbfe5550079d5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/00f1568f56d0079b11700f25c1c04841/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/00f1568f56d0079b11700f25c1c04841/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/870ddd871067ff865a09f385f532448e/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nguyencuong/.gradle/caches/transforms-3/870ddd871067ff865a09f385f532448e/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/d2de5d37a3225d3a605615268171a628/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/d2de5d37a3225d3a605615268171a628/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/b353e30702fae503f5af02bc8d511733/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/b353e30702fae503f5af02bc8d511733/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/ded610b2a4c589b8b3171daadf47b3b8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/ded610b2a4c589b8b3171daadf47b3b8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/09d185d0b9391bc2ff9f3fe1b815e7a0/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nguyencuong/.gradle/caches/transforms-3/09d185d0b9391bc2ff9f3fe1b815e7a0/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nguyencuong/Downloads/LearnHub/android/app/src/main/AndroidManifest.xml
+activity#com.evilratt.flutter_zoom_sdk.CustomWaitActivity
+ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-16:20
+	android:name
+		ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:10:19-82
+intent-filter#action:name:com.evilratt.flutter_zoom_sdk.intent.action.JoinBeforeHost+category:name:android.intent.category.DEFAULT
+ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-15:29
+action#com.evilratt.flutter_zoom_sdk.intent.action.JoinBeforeHost
+ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-101
+	android:name
+		ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:12:25-98
+category#android.intent.category.DEFAULT
+ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-76
+	android:name
+		ADDED from [:flutter_zoom_sdk] /Users/nguyencuong/Downloads/LearnHub/build/flutter_zoom_sdk/intermediates/merged_manifest/release/AndroidManifest.xml:14:27-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:33:5-79
+MERGED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:33:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/b292ddee6437f1684d67534d19997741/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/b292ddee6437f1684d67534d19997741/transformed/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/nguyencuong/.gradle/caches/transforms-3/87ad4fa48a5d2a031efdcd785ebd3c83/transformed/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76
+uses-feature#0x00020000
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:12:19-51
+uses-feature#android.hardware.camera
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:14:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:17:9-57
+uses-feature#android.hardware.telephony
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:20:9-50
+uses-feature#android.hardware.bluetooth
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:23:9-50
+uses-feature#android.hardware.microphone
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:26:9-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:30:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:32:5-75
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:32:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:35:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:36:5-71
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:36:22-68
+uses-permission#android.permission.CAMERA
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:37:22-62
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:38:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:39:5-74
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:39:22-71
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:40:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:41:5-68
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:41:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:42:5-69
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:42:22-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:43:5-78
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:43:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:44:5-77
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:44:22-74
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:45:5-81
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:45:22-78
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:46:5-85
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:46:22-82
+activity#com.zipow.videobox.JoinByURLActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:49:9-53:58
+	android:launchMode
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:52:13-44
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:51:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:53:13-55
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:50:13-64
+activity#com.zipow.videobox.IntegrationActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:54:9-58:58
+	android:launchMode
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:57:13-44
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:56:13-129
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:58:13-55
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:55:13-66
+activity#com.zipow.videobox.MeetingEndMessageActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:59:9-63:59
+	android:launchMode
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:62:13-44
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:61:13-129
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:63:13-56
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:60:13-72
+activity#com.zipow.videobox.JoinMeetingFailActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:64:9-68:59
+	android:launchMode
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:67:13-44
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:66:13-129
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:68:13-56
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:65:13-70
+activity#com.zipow.videobox.ConfActivityNormal
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:69:9-73:56
+	android:hardwareAccelerated
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:72:13-48
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:71:13-129
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:73:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:70:13-65
+activity#com.zipow.videobox.PListActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:74:9-78:56
+	android:hardwareAccelerated
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:77:13-48
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:76:13-129
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:78:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:75:13-60
+activity#com.zipow.videobox.InMeetingSettingsActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:79:9-83:56
+	android:hardwareAccelerated
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:82:13-48
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:81:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:83:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:80:13-72
+activity#com.zipow.videobox.ConfChatActivityOld
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:84:9-87:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:86:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:87:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:85:13-66
+activity#com.zipow.videobox.CallInActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:88:9-91:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:90:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:91:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:89:13-61
+activity#com.zipow.videobox.SimpleActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:92:9-96:70
+	android:windowSoftInputMode
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:96:13-67
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:94:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:95:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:93:13-61
+activity#com.zipow.videobox.SimpleInMeetingActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:97:9-101:70
+	android:windowSoftInputMode
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:101:13-67
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:99:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:100:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:98:13-70
+activity#com.zipow.videobox.poll.PollingActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:102:9-105:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:104:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:105:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:103:13-67
+activity#com.zipow.videobox.poll.WebinarPollingActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:106:9-109:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:108:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:109:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:107:13-74
+activity#com.zipow.videobox.poll.PollingResultActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:110:9-113:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:112:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:113:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:111:13-73
+activity#com.zipow.videobox.poll.WebinarPollingResultActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:114:9-117:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:116:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:117:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:115:13-80
+activity#us.zoom.androidlib.app.ZMFileListActivity
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:118:9-121:56
+	android:configChanges
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:120:13-139
+	android:theme
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:121:13-53
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:119:13-69
+service#com.zipow.videobox.kubi.KubiService
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:123:9-126:51
+	android:label
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:126:13-48
+	android:exported
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:124:13-63
+service#com.zipow.videobox.OnClearFromRecentService
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:127:9-129:40
+	android:exported
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:129:13-37
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:128:13-71
+service#com.zipow.videobox.share.ScreenShareServiceForSDK
+ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:130:9-134:51
+	android:label
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:134:13-48
+	android:exported
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:132:13-37
+	android:foregroundServiceType
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:133:13-60
+	android:name
+		ADDED from [:mobilertc:] /Users/nguyencuong/.gradle/caches/transforms-3/21a831cc916e5e11ea94268387740579/transformed/jetified-mobilertc/AndroidManifest.xml:131:13-77

@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+id ViewMessageOne
+layout custom_wait_activity
+string app_name_zoom_local

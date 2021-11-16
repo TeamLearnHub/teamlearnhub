@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/nguyencuong/Downloads/LearnHub/build/shared_preferences/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/nguyencuong/.gradle/caches/transforms-3/857ed4bebcaaa8e3ab7bb0df98c4aa07/transformed/core-1.1.0/res/drawable/notification_icon_background.xml"
+    }
+]
