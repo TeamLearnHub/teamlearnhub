@@ -16,8 +16,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final userName = TextEditingController();
-  final passWord = TextEditingController();
+  final userName = TextEditingController(text: "admin");
+  final passWord = TextEditingController(text: "hubvietnam@1988");
   UserBodyLogin userBodyLogin;
 
   @override
@@ -97,8 +97,6 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           children: <Widget>[
             Container(
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height / 3.5,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[

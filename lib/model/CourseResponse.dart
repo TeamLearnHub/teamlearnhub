@@ -52,7 +52,7 @@ class CourseListModel {
   // CourseCategoryList paymentMethod;
   String startDate;
   String endDate;
-  int price;
+  String price;
   String currency;
   String avatarUrl;
   String language;

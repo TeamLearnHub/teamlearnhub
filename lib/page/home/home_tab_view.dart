@@ -37,7 +37,6 @@ class HomeTabState extends State<HomeTabPage> {
       bottomNavigationBar: BottomNavigationBar(
         showSelectedLabels: true,
         showUnselectedLabels: false,
-      
         currentIndex: _currentIndex,
         items: [
           BottomNavigationBarItem(

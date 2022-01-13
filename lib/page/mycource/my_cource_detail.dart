@@ -30,6 +30,45 @@ class MyCourceDetailState extends State<MyCourseDetailPage> {
   CourseClassResponse courseClassResponse;
   Future<List<CourseDetailModel>> futureCourse;
   Future<List<CourseClassModel>> futureClass;
+  List classList = [
+    {
+      "Name":"Lớp 001",
+      "Teacher": "Giáo viên: Nguyễn Kiên",
+      "CountMember": "Số lượng học viên tham gia: 10/20",
+      "Time": "Start 20/09/2021 End 30/10/2021"
+    },
+    {
+      "Name":"Lớp 002",
+      "Teacher": "Giáo viên: Nguyễn Kiên",
+      "CountMember": "Số lượng học viên tham gia: 10/20",
+      "Time": "Start 20/09/2021 End 30/10/2021"
+    },
+    {
+      "Name":"Lớp 003",
+      "Teacher": "Giáo viên: Nguyễn Kiên",
+      "CountMember": "Số lượng học viên tham gia: 10/20",
+      "Time": "Start 20/09/2021 End 30/10/2021"
+    },
+    {
+      "Name":"Lớp 005",
+      "Teacher": "Giáo viên: Nguyễn Kiên",
+      "CountMember": "Số lượng học viên tham gia: 10/20",
+      "Time": "Start 20/09/2021 End 30/10/2021"
+    },
+    {
+      "Name":"Lớp 006",
+      "Teacher": "Giáo viên: Nguyễn Kiên",
+      "CountMember": "Số lượng học viên tham gia: 10/20",
+      "Time": "Start 20/09/2021 End 30/10/2021"
+    }
+    ,
+    {
+      "Name":"Lớp 004",
+      "Teacher": "Giáo viên: Nguyễn Kiên",
+      "CountMember": "Số lượng học viên tham gia: 10/20",
+      "Time": "Start 20/09/2021 End 30/10/2021"
+    }
+  ];
 
   _loadToken() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
@@ -112,157 +151,206 @@ class MyCourceDetailState extends State<MyCourseDetailPage> {
 
   //khoá học
   Widget detailCourse() {
-    return Card(
-      margin: EdgeInsets.all(10.0),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(0.0)),
-      color: HexColor.fromHex('#FFFFFF'),
-      elevation: 2,
-      child: Column(
-        children: <Widget>[
-          Padding(
-              padding: EdgeInsets.symmetric(
-                horizontal: 5.0,
-                vertical: 5.0,
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  SizedBox(width: 13.0, height: 10.0),
-                  GestureDetector(
-                    onTap: () {
-                      // Navigator.of(context)
-                      //     .push(MaterialPageRoute(builder: (context) {
-                      //   return ClassesDetailPage(classesModel: project);
-                      // }));
-                    },
-                    onLongPress: () {
-                      // Navigator.of(context)
-                      //     .push(MaterialPageRoute(builder: (context) {
-                      //   return ClassesDetailPage(classesModel: project);
-                      // }));
-                    },
-                    child: Container(
-                      margin: const EdgeInsets.only(top: 2.0, left: 0),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text('Giới thiệu',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 16.0,
-                              )),
-                          SizedBox(height: 10),
-                          Wrap(
-                            alignment: WrapAlignment.start,
-                            children: <Widget>[
-                              InkWell(
-                                onTap: () {
-                                  setState(() {
-                                    // Navigator.of(context)
-                                    //     .push(MaterialPageRoute(builder: (context) {
-                                    //   return MyCourseDetailPage(id: data.sId);
-                                    // }));
-                                  });
-                                },
-                                child: new Container(
-                                  height: 45,
-                                  width:
-                                      MediaQuery.of(context).size.width / 3.5,
-                                  decoration: BoxDecoration(
-                                      gradient: LinearGradient(
-                                        colors: [
-                                          HexColor.fromHex('#FAA244'),
-                                          HexColor.fromHex('#FF8400')
-                                        ],
-                                      ),
-                                      borderRadius:
-                                          BorderRadius.all(Radius.circular(5))),
-                                  child: Center(
-                                    child: Text(
-                                      'Active'.toUpperCase(),
-                                      style: TextStyle(
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Card(
+          margin: EdgeInsets.all(10.0),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(0.0)),
+          color: HexColor.fromHex('#FFFFFF'),
+          elevation: 2,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: TextButton.icon(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.arrow_back_ios,
+                        color: Colors.black,
+                        size: 18,
+                      ),
+                      label: Utils.customText(text: "Khoá học tiếng anh")),
+                ),
+                Utils.customText(
+                    text: "Tiếng anh Toeic", fontWeight: FontWeight.bold),
+                Padding(
+                  padding: const EdgeInsets.only(top: 8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {},
+                        style: ButtonStyle(
+                            elevation: MaterialStateProperty.all<double>(0),
+                            backgroundColor:
+                                MaterialStateProperty.all(Colors.orangeAccent),
+                            padding: MaterialStateProperty.all(EdgeInsets.only(
+                                left: 16, right: 16, top: 8, bottom: 8)),
+                            textStyle: MaterialStateProperty.all(
+                                TextStyle(fontSize: 16))),
+                        child: Text(
+                          'Chưa đăng ký',
+                          style: TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      TextButton.icon(
+                          icon: Icon(
+                            Icons.star_half,
+                            color: Colors.black,
+                            size: 18,
                           ),
-                          SizedBox(height: 10.0),
-                          Text('Lớp : L001',
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10.0),
-                          Text('Ngày bắt đầu : 20/10/2021',
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10.0),
-                          Text('Ngày hết hạn 11 30',
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10.0),
-                          Text("Chứng chỉ : nội bộ",
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10),
-                          InkWell(
-                            onTap: () {
-                              setState(() {
-                                Navigator.of(context)
-                                    .push(MaterialPageRoute(builder: (context) {
-                                  return ClassesDetailPage();
-                                }));
-                              });
-                            },
-                            child: new Container(
-                              height: 45,
-                              width: MediaQuery.of(context).size.width / 3.5,
-                              decoration: BoxDecoration(
-                                  gradient: LinearGradient(
-                                    colors: [
-                                      HexColor.fromHex('#FAA244'),
-                                      HexColor.fromHex('#FF8400')
-                                    ],
+                          label: Utils.customText(text: "4.8")),
+                      TextButton.icon(
+                          icon: Icon(
+                            Icons.timelapse,
+                            color: Colors.black,
+                            size: 18,
+                          ),
+                          label: Utils.customText(text: "6 tuần"))
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Icon(
+                        Icons.timelapse,
+                        color: Colors.black,
+                        size: 16,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Utils.customText(text: "2-3 giờ mỗi tuần"),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Icon(
+                        Icons.group,
+                        color: Colors.black,
+                        size: 20,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Utils.customText(
+                            text: "Số lượng học viên tham gia: 30/50"),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Icon(
+                        Icons.description_outlined,
+                        color: Colors.black,
+                        size: 20,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Utils.customText(text: "Chứng chỉ nội bộ"),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 8.0),
+                  child: Utils.customText(
+                      text:
+                          "Tiếng anh Toeic cơ bản là khoá học cung cấp kiến thức cho người đi làm giao tiếp công việc"),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 16.0),
+                  child: Utils.customText(
+                      text: "Lựa chọn lớp học",
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 4.0, left: 16),
+                  child: Utils.customText(
+                      text: "300 người đã đăng ký",
+                      color: Colors.black,
+                      size: 14.0),
+                ),
+                Container(
+                  margin: EdgeInsets.only(top:8),
+                  height: 450,
+                  child: Scrollbar(
+                    isAlwaysShown: true,
+                    child: ListView.builder(
+                        shrinkWrap: true,
+                        scrollDirection: Axis.vertical,
+                        physics: ClampingScrollPhysics(),
+                        itemCount: classList.length,
+                        itemBuilder: (BuildContext context, int index) {
+                          var item = classList[index];
+                          return Container(
+                            margin: EdgeInsets.only(top:8),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(Radius.circular(5)),
+                                color: Colors.white,
+                                border: Border.all(color: Colors.grey, width: 1)),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.stretch,
+                                children: [
+                                  Center(
+                                    child: Utils.customText(
+                                        text: item["Name"],
+                                        color: Colors.blue,
+                                        size: 16.0),
                                   ),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(5))),
-                              child: Center(
-                                child: Text(
-                                  'Vào học'.toUpperCase(),
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top:8.0),
+                                    child: Utils.customText(
+                                        text: item["Teacher"],
+                                        color: Colors.black,
+                                        size: 16.0),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top:8.0),
+                                    child: Utils.customText(
+                                        text: item["CountMember"],
+                                        color: Colors.black,
+                                        size: 16.0),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top:8.0),
+                                    child: Utils.customText(
+                                        text: item["Time"],
+                                        color: Colors.black,
+                                        size: 16.0),
+                                  ),
+                                ],
                               ),
                             ),
-                          ),
-                          SizedBox(height: 10.0),
-                          Row(
-                            children: <Widget>[
-                              Text('Khóa học giao tiếp thông minh nơi công sở',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 16.0,
-                                  ))
-                            ],
-                          ),
-                          SizedBox(height: 10.0),
-                          Row(
-                            children: <Widget>[
-                              Text('Chứng chỉ : Nhận trực tiếp',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 16.0,
-                                  ))
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                  )
-                ],
-              ))
-        ],
-      ),
+                          );
+                        }),
+                  ),
+                )
+              ],
+            ),
+          ),
+        ),
+        CourceFAQView()
+      ],
     );
   }
 
@@ -472,34 +560,6 @@ class MyCourceDetailState extends State<MyCourseDetailPage> {
     super.dispose();
   }
 
-// Future<Void> initializePlayer() async {
-//   // video = VideoPlayerController.network(
-//   //     'https://assets.mixkit.co/videos/preview/mixkit-daytime-city-traffic-aerial-view-56-large.mp4');
-//   video = VideoPlayerController.asset('assets/test.mp4');
-//
-//   await Future.wait([video.initialize()]);
-//   _chewieController = ChewieController(
-//       videoPlayerController: video,
-//       autoPlay: true,
-//       looping: true,
-//       subtitle: Subtitles([
-//         Subtitle(
-//             index: 0,
-//             start: Duration.zero,
-//             end: const Duration(seconds: 10),
-//             text: '')
-//       ]),
-//       subtitleBuilder: (context, subtitle) => Container(
-//             padding: const EdgeInsets.all(10.0),
-//             child: Text(
-//               subtitle,
-//               style: const TextStyle(color: Colors.white),
-//             ),
-//           ));
-//
-//   setState(() {});
-// }
-
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -522,159 +582,212 @@ class MyCourceDetailState extends State<MyCourseDetailPage> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              // Expanded(
-              //   child: Center(
-              //     child: _chewieController != null &&
-              //             _chewieController
-              //                 .videoPlayerController.value.isInitialized
-              //         ? Chewie(
-              //             controller: _chewieController,
-              //           )
-              //         : Column(
-              //             mainAxisAlignment: MainAxisAlignment.center,
-              //             children: const [
-              //               CircularProgressIndicator(),
-              //               SizedBox(height: 20),
-              //               Text('Loading'),
-              //             ],
-              //           ),
-              //   ),
-              // ),
               SizedBox(height: 10.0),
               learningWidget(),
               detailCourse(),
               SizedBox(height: 50.0)
-              // Container(
-              //   margin: const EdgeInsets.only(top: 15.0, left: 27.0),
-              //   child: Column(
-              //     mainAxisAlignment: MainAxisAlignment.start,
-              //     crossAxisAlignment: CrossAxisAlignment.start,
-              //     children: <Widget>[
-              //       Row(
-              //         children: <Widget>[
-              //           SizedBox(width: 6.0),
-              //           Text('Khóa học giao tiếp thông minh nơi công sở',
-              //               style: TextStyle(
-              //                   color: Colors.black,
-              //                   fontSize: 16.0,
-              //                   fontWeight: FontWeight.bold))
-              //         ],
-              //       ),
-              //       SizedBox(height: 10.0),
-              //       Wrap(
-              //         crossAxisAlignment: WrapCrossAlignment.center,
-              //         children: <Widget>[
-              //           Container(
-              //             child: new Image(
-              //                 image: AssetImage('assets/ic_students.png'),
-              //                 height: 18,
-              //                 width: 25),
-              //           ),
-              //           Text('30M | ',
-              //               style: TextStyle(
-              //                   fontWeight: FontWeight.normal,
-              //                   color: HexColor.fromHex('#787878'))),
-              //           Container(
-              //             margin: const EdgeInsets.only(bottom: 1.0),
-              //             child: new Image(
-              //                 image: AssetImage('assets/ic_class.png'),
-              //                 height: 18.0,
-              //                 width: 25.0),
-              //           ),
-              //           Text('05 Lớp | ',
-              //               style: TextStyle(
-              //                   fontWeight: FontWeight.normal,
-              //                   color: HexColor.fromHex('#787878'))),
-              //           Container(
-              //             child: new Image(
-              //               image: AssetImage('assets/ic_time.png'),
-              //               height: 18.0,
-              //               width: 25.0,
-              //             ),
-              //           ),
-              //           Text('07 ngày',
-              //               style: TextStyle(fontWeight: FontWeight.normal)),
-              //         ],
-              //       ),
-              //       SizedBox(height: 5.0),
-              //     ],
-              //   ),
-              // ),
-              // SizedBox(height: 15.0),
-              // Image(image: AssetImage('assets/ic_line_big.png')),
-              // SizedBox(height: 15.0),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.start,
-              //   crossAxisAlignment: CrossAxisAlignment.start,
-              //   children: <Widget>[
-              //     SizedBox(width: 30),
-              //     Column(
-              //       mainAxisAlignment: MainAxisAlignment.start,
-              //       crossAxisAlignment: CrossAxisAlignment.start,
-              //       children: <Widget>[
-              //         Text('Giảng viên ',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.normal)),
-              //         SizedBox(height: 8.0),
-              //         Text('Nguyễn Huy Anh ',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.bold)),
-              //         SizedBox(height: 13.0),
-              //         Text('Ngày bắt đầu',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.normal)),
-              //         SizedBox(height: 7.0),
-              //         Text('01/03/2020',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.bold)),
-              //       ],
-              //     ),
-              //     SizedBox(width: 40.0),
-              //     Column(
-              //       mainAxisAlignment: MainAxisAlignment.start,
-              //       crossAxisAlignment: CrossAxisAlignment.start,
-              //       children: <Widget>[
-              //         Text('Lớp',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.normal)),
-              //         SizedBox(height: 8.0),
-              //         Text('K12',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.bold)),
-              //         SizedBox(height: 13.0),
-              //         Text('Ngày kết thúc',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.normal)),
-              //         SizedBox(height: 7.0),
-              //         Text('03/03/2020',
-              //             style: TextStyle(
-              //                 color: HexColor.fromHex('#111111'),
-              //                 fontSize: 16.0,
-              //                 fontWeight: FontWeight.bold)),
-              //       ],
-              //     )
-              //   ],
-              // ),
-              // SizedBox(height: 210.0),
-              // listCourseClassWidget()
             ],
           ),
         ),
       ),
     );
   }
+}
+class CourceFAQView extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    return _CourceFAQView();
+  }
+}
+class _CourceFAQView extends State<CourceFAQView> {
+  bool isEmail = false;
+  String typeFAQ = "";
+  List listFAQ = [
+    {
+      "Name":"Thông tin khoá học",
+      "Value":"info"
+    },
+    {
+      "Name":"Bài giảng/Giáo trình",
+      "Value":"syllabus"
+    },
+    {
+      "Name":"FAQ",
+      "Value":"faq"
+    },
+    {
+      "Name":"Cách đăng ký khoá học",
+      "Value":"register_cource"
+    },
+    {
+      "Name":"Chia sẻ khoá học",
+      "Value":"share_cource"
+    }
+  ];
+  Widget viewDetailFAQ(type){
+      if(type == "info"){
+        return Container(
+          padding: const EdgeInsets.only(left:16.0,right:8),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Utils.customText(text:"Tiếng anh Toeic cơ bản là khoá học cung cấp kiến thức cho người đi làm giao tiếp công việc"),
+              Padding(
+                padding: const EdgeInsets.only(top:16.0),
+                child: Utils.customText(text:"Tóm tắt",fontWeight: FontWeight.bold),
+              ),
+              Container(
+                margin: EdgeInsets.only(top:8),
+                padding:EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(5)),
+                    color: Colors.white,
+                    border: Border.all(color: Colors.grey, width: 1)
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Utils.customText(text:"Tổ chức: đại học qg"),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Chủ đề: tiếng anh"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Chủ đề: tiếng anh"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Trình độ: cơ bản"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Điều kiện: không"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Thi: có"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Chứng chỉ: Nội bộ"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Ngôn ngữ: Tiếng Anh"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Bản ghi: Tiếng việt"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:8.0),
+                      child: Utils.customText(text:"Chương trình liên kết"),
+                    ),
+                  ],
+                ),
+              ),
+            ],),
+        );
+      }else if(type=="syllabus"){
+        return Container(
+          padding: const EdgeInsets.only(left:16.0,right:8),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Utils.customText(text:"Chương 1: Python basic",fontWeight: FontWeight.bold),
+              Padding(
+                padding: const EdgeInsets.only(top:8.0,left:16),
+                child: Utils.customText(text:"1. Giới thiệu Python (Time 00:40:20)"),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top:8.0,left:16),
+                child: Utils.customText(text:"2. Core Python (Time 00:30:20)"),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top:16.0),
+                child: Utils.customText(text:"Chương 2: Kiểu cấu trúc",fontWeight: FontWeight.bold),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top:8.0,left:16),
+                child: Utils.customText(text:"3. Chức năng (Time 00:20:20)"),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top:8.0,left:16),
+                child: Utils.customText(text:"4. Thực hành đơn giản (Time 00:20:20)"),
+              ),
+            ],),
+        );
+      }
+      return Container(
+        padding: const EdgeInsets.only(left:16.0,right:8),
+        child: Utils.customText(text:"Chưa có thông tin"),
+      );
+  }
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+
+     return Card(
+       margin: EdgeInsets.all(10.0),
+       shape:
+       RoundedRectangleBorder(borderRadius: BorderRadius.circular(0.0)),
+       color: HexColor.fromHex('#FFFFFF'),
+       elevation: 2,
+       child: Padding(
+         padding: const EdgeInsets.all(8.0),
+         child: Column(
+           crossAxisAlignment: CrossAxisAlignment.stretch,
+           children: [
+             Padding(
+               padding: const EdgeInsets.only(top:8.0),
+               child: LabeledCheckbox(
+                 value: isEmail,
+                 width: 16,
+                 height: 16,
+                 label: "Tôi muốn nhận email từ LH về những thông tin khóa học ABC",
+                 color: Colors.black,
+                 padding: EdgeInsets.all(0),
+                 onChanged: (value) {
+                    setState(() {
+                      isEmail = !isEmail;
+                    });
+                 },
+               ),
+             ),
+             for(int i=0;i<listFAQ.length;i++)
+               Column(
+                 crossAxisAlignment: CrossAxisAlignment.stretch,
+                 children: [
+                   ElevatedButton(
+                     onPressed: () {
+                       setState(() {
+                         typeFAQ = typeFAQ == "" || typeFAQ != listFAQ[i]["Value"] ? listFAQ[i]["Value"] : "";
+                       });
+                     },
+                     style: ButtonStyle(
+                         elevation: MaterialStateProperty.all<double>(0),
+                         backgroundColor: MaterialStateProperty.all(Colors.white),
+                         padding: MaterialStateProperty.all(EdgeInsets.only(left:8,right:8)),
+                         textStyle: MaterialStateProperty.all(TextStyle(fontSize: 16))),
+                     child: Row(
+                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                       children: [
+                         Utils.customText(text:listFAQ[i]["Name"],fontWeight:typeFAQ == listFAQ[i]["Value"] ? FontWeight.bold : FontWeight.normal ),
+                         Icon(typeFAQ == listFAQ[i]["Value"] ?  Icons.expand_less_sharp :Icons.expand_more_rounded,color: Colors.black,),
+                       ],)
+                   ),
+                   if(typeFAQ == listFAQ[i]["Value"])
+                     viewDetailFAQ(listFAQ[i]["Value"]),
+                 ],
+               ),
+
+           ],
+
+         ),
+       ),
+     );
+  }
+
 }

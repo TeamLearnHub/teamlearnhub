@@ -68,20 +68,21 @@ class _HomePageState extends State<HomePage> {
   Future<List<CourseCategory>> futureCourseCategory;
   Future<List<CourseListModel>> futureCourse;
   CourseBody courseBody;
-  String urlCategory = "http://118.70.236.144:84/api/v1.0/coursecategory";
-  String urlCourse = "http://118.70.236.144:84/api/v1.0/course/search";
 
   Future<List<CourseCategory>> getCategoryCourse() async {
     CourseCategoryResponse courseCategoryResponse;
     List<CourseCategory> list = new List<CourseCategory>();
-    final http.Response response = await http.get(urlCategory, headers: {
+    final http.Response response =
+        await http.get(Utils.GET_COURSE_category, headers: {
       'Content-Type': 'application/json; charset=UTF-8',
       'Accept': 'application/json',
       'Authorization': 'Bearer $accessToken'
     });
+    print("responseresponse112 = " + Utils.GET_COURSE_category);
+    print("responseresponse11 = " + response.statusCode.toString());
     if (response.statusCode == 200) {
       final result = json.decode(response.body);
-      print("statusCode = " + response.statusCode.toString());
+
       print((json.decode(response.body)).toString());
 
       courseCategoryResponse = CourseCategoryResponse.fromJson(result);
@@ -92,23 +93,20 @@ class _HomePageState extends State<HomePage> {
 
   Future<List<CourseListModel>> getListCourse(CourseBody courseBody) async {
     CourseResponse courseResponse;
+
     List<CourseListModel> list = new List<CourseListModel>();
-    final http.Response response = await http.post(urlCourse,
+    final http.Response response = await http.post(Utils.GET_COURSE_SEARCH,
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
           'Accept': 'application/json',
           'Authorization': 'Bearer $accessToken'
         },
         body: jsonEncode(courseBody.toDatabaseJson()));
-
     if (response.statusCode == 200) {
       final result = json.decode(response.body);
-      print("statusCode = " + response.statusCode.toString());
-      print("getListCourse" + (json.decode(response.body)).toString());
+      print("resultresult1111: " + response.body);
 
       courseResponse = CourseResponse.fromJson(result);
-
-      print(" getListCourse = " + courseResponse.result[0].avatarUrl);
       list = courseResponse.result;
     }
     return list;
@@ -414,10 +412,8 @@ class _HomePageState extends State<HomePage> {
                                             // }));
                                           },
                                           child: Container(
-                                            constraints:
-                                                BoxConstraints(maxWidth: 195),
                                             margin: const EdgeInsets.only(
-                                                top: 2.0, left: 20.0),
+                                                top: 2.0, left: 0),
                                             child: Column(
                                               mainAxisAlignment:
                                                   MainAxisAlignment.start,
@@ -440,74 +436,77 @@ class _HomePageState extends State<HomePage> {
                                                   ],
                                                 ),
                                                 SizedBox(height: 10.0),
-                                                Text('30/10/2021',
-                                                    style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.normal)),
+                                                Row(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Icon(Icons.calendar_today_sharp),
+                                                    Padding(
+                                                      padding: const EdgeInsets.only(left:8.0),
+                                                      child: Utils.customText(text:"30/10/2021"),
+                                                    )
+                                                  ],
+                                                ),
                                                 SizedBox(height: 10.0),
-                                                Text('300 đã tham gia',
-                                                    style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.normal)),
+                                                Row(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Icon(Icons.group),
+                                                    Padding(
+                                                      padding: const EdgeInsets.only(left:8.0),
+                                                      child: Utils.customText(text:"300 đã tham gia"),
+                                                    )
+                                                  ],
+                                                ),
                                                 SizedBox(height: 10.0),
-                                                Text(
-                                                    'Số lượng học viên tham gia : 30/50',
-                                                    style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.normal)),
+                                                Row(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Icon(Icons.accessibility_sharp),
+                                                    Padding(
+                                                      padding: const EdgeInsets.only(left:8.0),
+                                                      child: Utils.customText(text:"Số lượng học viên tham gia : 30/50"),
+                                                    )
+                                                  ],
+                                                ),
                                                 SizedBox(height: 10.0),
-                                                Text(
-                                                    data.price.toString() +
-                                                        " VNĐ",
-                                                    style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.normal)),
+                                                Row(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Icon(Icons.monetization_on_sharp),
+                                                    Padding(
+                                                      padding: const EdgeInsets.only(left:8.0),
+                                                      child: Utils.customText(text:"${data.price.toString()} VNĐ"),
+                                                    )
+                                                  ],
+                                                ),
                                                 SizedBox(height: 10.0),
-                                                InkWell(
-                                                  onTap: () {
-                                                    setState(() {
-                                                      Navigator.of(context).push(
-                                                          MaterialPageRoute(
-                                                              builder:
-                                                                  (context) {
-                                                        return MyCourseDetailPage(
-                                                            id: data.sId);
-                                                      }));
-                                                    });
+                                                ElevatedButton(
+                                                  onPressed: () {
+                                                    Navigator.of(context).push(
+                                                        MaterialPageRoute(
+                                                            builder:
+                                                                (context) {
+                                                              return MyCourseDetailPage(
+                                                                  id: data.sId);
+                                                            }));
                                                   },
-                                                  child: new Container(
-                                                    height: 50,
-                                                    width:
-                                                        MediaQuery.of(context)
-                                                                .size
-                                                                .width /
-                                                            2,
-                                                    decoration: BoxDecoration(
-                                                        gradient:
-                                                            LinearGradient(
-                                                          colors: [
-                                                            HexColor.fromHex(
-                                                                '#FAA244'),
-                                                            HexColor.fromHex(
-                                                                '#FF8400')
-                                                          ],
-                                                        ),
-                                                        borderRadius:
-                                                            BorderRadius.all(
-                                                                Radius.circular(
-                                                                    5))),
-                                                    child: Center(
-                                                      child: Text(
-                                                        'Vào học'.toUpperCase(),
-                                                        style: TextStyle(
-                                                            color: Colors.white,
-                                                            fontWeight:
-                                                                FontWeight
-                                                                    .bold),
-                                                      ),
-                                                    ),
+                                                  style: ButtonStyle(
+                                                      elevation: MaterialStateProperty.all<double>(0),
+                                                      backgroundColor:
+                                                      MaterialStateProperty.all(Colors.orangeAccent),
+                                                      padding: MaterialStateProperty.all(EdgeInsets.only(left:16,right:16,top:8,bottom:8)),
+                                                      textStyle:
+                                                      MaterialStateProperty.all(TextStyle(fontSize: 16))),
+                                                  child: Text(
+                                                    'Đăng ký'.toUpperCase(),
+                                                    style: TextStyle(
+                                                        color: Colors.white,
+                                                        fontWeight:
+                                                        FontWeight
+                                                            .bold),
                                                   ),
                                                 ),
+
                                                 SizedBox(height: 10.0)
                                               ],
                                             ),
@@ -618,9 +617,10 @@ class _HomePageState extends State<HomePage> {
                                                 top: 15.0),
                                             child: Stack(
                                               children: <Widget>[
-                                                Image(
-                                                    image: NetworkImage(
-                                                        data.avatarUrl)),
+                                                if (data.avatarUrl != null)
+                                                  Image(
+                                                      image: NetworkImage(
+                                                          data.avatarUrl)),
                                                 Column(
                                                   mainAxisAlignment:
                                                       MainAxisAlignment.start,
@@ -1161,9 +1161,10 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: Container(
-        child: SingleChildScrollView(
-          child: Column(
-            children: [
+        color: Colors.white,
+        child: CustomScrollView(slivers: [
+          SliverList(
+            delegate: SliverChildListDelegate([
               Container(
                 width: MediaQuery.of(context).size.width / 1.2,
                 height: 50,
@@ -1184,12 +1185,193 @@ class _HomePageState extends State<HomePage> {
               ),
               SizedBox(height: 10),
               Visibility(child: myCourseWidget(), visible: true),
+              Padding(
+                padding:
+                    const EdgeInsets.only(top: 10.0, left: 16.0, right: 16.0),
+                child: FilterAllWidget(),
+              ),
               SizedBox(height: 10),
               Visibility(child: listCourseWidget(), visible: true),
               SizedBox(height: 15.0)
-            ],
+            ]),
           ),
-        ),
+        ]),
+      ),
+    );
+  }
+}
+
+class FilterAllWidget extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    return _FilterAllWidget();
+  }
+}
+
+class _FilterAllWidget extends State<FilterAllWidget> {
+  bool isAllFilter = false;
+  String type = "";
+  List listSearchType = [];
+  var listFilter = [
+    {"Name": "Danh mục chuyên đề", "Type": "Categories"},
+    {"Name": "Trạng thái", "Type": "Status"},
+    {"Name": "Trình độ", "Type": "Level"},
+    {"Name": "Cơ sở", "Type": "Facility"},
+    {"Name": "Khả dụng", "Type": "Availability"},
+    {"Name": "Thời gian", "Type": "Time"},
+  ];
+
+  List getDataSearch(type) {
+    switch (type) {
+      case "Categories":
+        return [];
+      case "Level":
+        return [
+          {"Name": "Giới thiệu cơ bản", "Value": "30"},
+          {"Name": "Trung bình", "Value": "20"},
+          {"Name": "Nâng cao", "Value": "10"},
+        ];
+      default:
+        return [];
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Container(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          ElevatedButton(
+            onPressed: () {
+              setState(() {
+                isAllFilter = !isAllFilter;
+                if (isAllFilter) {
+                  type = "";
+                }
+              });
+            },
+            style: ButtonStyle(
+                elevation: MaterialStateProperty.all<double>(0),
+                backgroundColor: MaterialStateProperty.all(Colors.white),
+                padding: MaterialStateProperty.all(EdgeInsets.all(0)),
+                textStyle: MaterialStateProperty.all(TextStyle(fontSize: 16))),
+            child: Container(
+              padding: EdgeInsets.only(top: 6, bottom: 6, left: 12, right: 12),
+              decoration: isAllFilter
+                  ? BoxDecoration(
+                      color: Colors.transparent,
+                    )
+                  : BoxDecoration(
+                      border: Border.all(
+                        color: Colors.black,
+                        style: BorderStyle.solid,
+                        width: 1.0,
+                      ),
+                      color: Colors.transparent,
+                      borderRadius: BorderRadius.circular(3.0),
+                    ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Utils.customText(text: "All filters${listSearchType.length > 0 ? " (${listSearchType.length} Lựa chọn)" : ""}"),
+                  Icon(
+                    isAllFilter ? Icons.cancel_sharp : Icons.expand_more_sharp,
+                    color: Colors.black,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          if (isAllFilter)
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                for (var i = 0; i < listFilter.length; i++)
+                  ElevatedButton(
+                    onPressed: () {
+                      setState(() {
+                        type = type == "" || type != listFilter[i]["Type"] ? listFilter[i]["Type"] : "";
+                      });
+                    },
+                    style: ButtonStyle(
+                        elevation: MaterialStateProperty.all<double>(0),
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.white),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(0)),
+                        textStyle:
+                            MaterialStateProperty.all(TextStyle(fontSize: 16))),
+                    child: Container(
+                      padding: EdgeInsets.only(
+                          top: 6, bottom: 6, left: 12, right: 12),
+                      decoration: BoxDecoration(
+                        border: Border(
+                          top: BorderSide(
+                            //                   <--- left side
+                            color: Colors.black,
+                            width: 1.0,
+                          ),
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Utils.customText(text: listFilter[i]["Name"]),
+                              Padding(
+                                padding: const EdgeInsets.only(left: 8.0),
+                                child: Icon(
+                                  type == listFilter[i]["Type"]
+                                      ? Icons.expand_less_sharp
+                                      : Icons.expand_more_sharp,
+                                  color: Colors.black,
+                                ),
+                              ),
+                            ],
+                          ),
+                          if (type == listFilter[i]["Type"])
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                for (var j = 0;j <getDataSearch(listFilter[i]["Type"]).length;j++)
+                                  Padding(
+                                    padding: const EdgeInsets.only(top:8.0),
+                                    child: LabeledCheckbox(
+                                      value: listSearchType.any((element) => element == getDataSearch(listFilter[i]["Type"])[j]["Value"]),
+                                      width: 16,
+                                      height: 16,
+                                      label: getDataSearch(listFilter[i]["Type"])[j]["Name"],
+                                      color: Colors.black,
+                                      padding: EdgeInsets.all(0),
+                                      onChanged: (value) {
+                                        var list = listSearchType;
+                                        var text = getDataSearch(listFilter[i]["Type"])[j]["Value"];
+                                        if(list.any((element) => element == text)){
+                                          list.removeWhere((element) => element == text);
+                                        }else{
+                                          list.add(text);
+                                        }
+                                        setState(() {
+                                          listSearchType = list;
+                                        });
+                                      },
+                                    ),
+                                  )
+
+                              ],
+                            ),
+                        ],
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+        ],
       ),
     );
   }
