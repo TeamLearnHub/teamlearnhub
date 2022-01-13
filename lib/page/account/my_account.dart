@@ -16,29 +16,22 @@ class MyAccountState extends State<MyAccountPage> {
   // lộ trình học tập
   Widget routeWidget() {
     return Container(
-      margin: const EdgeInsets.all(15.0),
-      child: GestureDetector(
-        onTap: () {},
-        child: Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Image(image: AssetImage('assets/ic_learning.png')),
-                SizedBox(width: 16.0),
-                Text(
-                  'Lộ trình học tập',
-                  style: TextStyle(
-                      fontSize: 18.0,
-                      color: HexColor.fromHex('#434343'),
-                      fontWeight: FontWeight.normal),
-                ),
-                SizedBox(
-                  width: 160.0,
-                ),
-                Image(image: AssetImage('assets/ic_next.png'))
-              ],
-            )),
+      margin: const EdgeInsets.only(top:8,bottom:8,left:16,right:16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          TextButton.icon(
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: EdgeInsets.all(0),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            ),
+            onPressed: () {},
+            label: Utils.customText(text: "Lộ trình học tập"),
+            icon: Image(image: AssetImage('assets/ic_learning.png')),
+          ),
+          Image(image: AssetImage('assets/ic_next.png'))
+        ],
       ),
     );
   }
@@ -46,89 +39,73 @@ class MyAccountState extends State<MyAccountPage> {
   //Đề thi
   Widget ExamingWidget() {
     return Container(
-        margin: const EdgeInsets.all(4.0),
-        child: GestureDetector(
-          onTap: () {},
-          child: Padding(
-              padding: const EdgeInsets.all(4.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image(image: AssetImage('assets/ic_exam.png')),
-                  Text(
-                    'Đề thi',
-                    style: TextStyle(
-                        fontSize: 18.0,
-                        color: HexColor.fromHex('#434343'),
-                        fontWeight: FontWeight.normal),
-                  ),
-                  SizedBox(
-                    width: 200.0,
-                  ),
-                  Image(image: AssetImage('assets/ic_next.png'))
-                ],
-              )),
-        ));
+      margin: const EdgeInsets.only(top:8,bottom:8,left:16,right:16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          TextButton.icon(
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: EdgeInsets.all(0),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            ),
+            onPressed: () {},
+            label: Utils.customText(text: "Đề thi"),
+            icon: Image(image: AssetImage('assets/ic_exam.png')),
+          ),
+          Image(image: AssetImage('assets/ic_next.png'))
+        ],
+      ),
+    );
+
   }
 
   //kết quả học tập
   Widget Result() {
     return Container(
-      margin: const EdgeInsets.all(15.0),
-      child: GestureDetector(
-        onTap: () {},
-        child: Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Image(image: AssetImage('assets/ic_result.png')),
-                SizedBox(width: 20.0),
-                Text(
-                  'Kết quả học tập',
-                  style: TextStyle(
-                      fontSize: 18.0,
-                      color: HexColor.fromHex('#434343'),
-                      fontWeight: FontWeight.normal),
-                ),
-                SizedBox(
-                  width: 160.0,
-                ),
-                Image(image: AssetImage('assets/ic_next.png'))
-              ],
-            )),
+      margin: const EdgeInsets.only(top:18,bottom:8,left:16,right:16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          TextButton.icon(
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: EdgeInsets.all(0),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            ),
+            onPressed: () {},
+            label: Utils.customText(text: "Kết quả học tập"),
+            icon: Image(image: AssetImage('assets/ic_result.png')),
+          ),
+          Image(image: AssetImage('assets/ic_next.png'))
+        ],
       ),
     );
+
   }
 
   //họp trực tuyến
   Widget meetingWidget() {
     return Container(
-      margin: const EdgeInsets.all(15.0),
-      child: GestureDetector(
-        onTap: () {},
-        child: Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Image(image: AssetImage('assets/ic_meeting.png')),
-                SizedBox(width: 16.0),
-                Text(
-                  'Họp trực tuyến',
-                  style: TextStyle(
-                      fontSize: 18.0,
-                      color: HexColor.fromHex('#434343'),
-                      fontWeight: FontWeight.normal),
-                ),
-                SizedBox(
-                  width: 160.0,
-                ),
-                Image(image: AssetImage('assets/ic_next.png'))
-              ],
-            )),
+      margin: const EdgeInsets.only(top:18,bottom:8,left:16,right:16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          TextButton.icon(
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: EdgeInsets.all(0),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            ),
+            onPressed: () {},
+            label: Utils.customText(text: "Họp trực tuyến"),
+            icon: Image(image: AssetImage('assets/ic_meeting.png')),
+          ),
+          Image(image: AssetImage('assets/ic_next.png'))
+        ],
       ),
     );
+
   }
 
   var ic_notification = new Image(
