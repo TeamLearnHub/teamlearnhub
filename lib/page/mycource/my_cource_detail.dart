@@ -338,6 +338,27 @@ class MyCourceDetailState extends State<MyCourseDetailPage> {
                                         color: Colors.black,
                                         size: 16.0),
                                   ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top:8.0),
+                                    child: Center(
+                                      child: ElevatedButton(
+                                        onPressed: () {},
+                                        style: ButtonStyle(
+                                            elevation: MaterialStateProperty.all<double>(0),
+                                            backgroundColor:
+                                            MaterialStateProperty.all(Colors.orangeAccent),
+                                            padding: MaterialStateProperty.all(EdgeInsets.only(
+                                                left: 16, right: 16, top: 8, bottom: 8)),
+                                            textStyle: MaterialStateProperty.all(
+                                                TextStyle(fontSize: 16))),
+                                        child: Text(
+                                          'Đăng ký',
+                                          style: TextStyle(
+                                              color: Colors.white, fontWeight: FontWeight.bold),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),

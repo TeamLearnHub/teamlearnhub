@@ -1335,41 +1335,96 @@ class _FilterAllWidget extends State<FilterAllWidget> {
                             ],
                           ),
                           if (type == listFilter[i]["Type"])
-                            Column(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              children: [
-                                for (var j = 0;j <getDataSearch(listFilter[i]["Type"]).length;j++)
-                                  Padding(
-                                    padding: const EdgeInsets.only(top:8.0),
-                                    child: LabeledCheckbox(
-                                      value: listSearchType.any((element) => element == getDataSearch(listFilter[i]["Type"])[j]["Value"]),
-                                      width: 16,
-                                      height: 16,
-                                      label: getDataSearch(listFilter[i]["Type"])[j]["Name"],
-                                      color: Colors.black,
-                                      padding: EdgeInsets.all(0),
-                                      onChanged: (value) {
-                                        var list = listSearchType;
-                                        var text = getDataSearch(listFilter[i]["Type"])[j]["Value"];
-                                        if(list.any((element) => element == text)){
-                                          list.removeWhere((element) => element == text);
-                                        }else{
-                                          list.add(text);
-                                        }
-                                        setState(() {
-                                          listSearchType = list;
-                                        });
-                                      },
-                                    ),
-                                  )
+                            Padding(
+                              padding: const EdgeInsets.only(top:8.0),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  for (var j = 0;j <getDataSearch(listFilter[i]["Type"]).length;j++)
+                                    Padding(
+                                      padding: const EdgeInsets.only(top:8.0,bottom:8),
+                                      child: LabeledCheckbox(
+                                        value: listSearchType.any((element) => element == getDataSearch(listFilter[i]["Type"])[j]["Value"]),
+                                        width: 16,
+                                        height: 16,
+                                        label: getDataSearch(listFilter[i]["Type"])[j]["Name"],
+                                        color: Colors.black,
+                                        padding: EdgeInsets.all(0),
+                                        onChanged: (value) {
+                                          var list = listSearchType;
+                                          var text = getDataSearch(listFilter[i]["Type"])[j]["Value"];
+                                          if(list.any((element) => element == text)){
+                                            list.removeWhere((element) => element == text);
+                                          }else{
+                                            list.add(text);
+                                          }
+                                          setState(() {
+                                            listSearchType = list;
+                                          });
+                                        },
+                                      ),
+                                    )
 
-                              ],
+                                ],
+                              ),
                             ),
                         ],
                       ),
                     ),
                   ),
+                if(listSearchType.length > 0)
+                Container(
+                  margin: EdgeInsets.only(top:8),
+                  color:Colors.black12,
+                  padding: EdgeInsets.all(8),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          setState(() {
+                            listSearchType = [];
+                          });
+                        },
+                        style: ButtonStyle(
+                            elevation: MaterialStateProperty.all<double>(0),
+                            backgroundColor:
+                            MaterialStateProperty.all(Colors.redAccent),
+                            padding: MaterialStateProperty.all(EdgeInsets.only(
+                                left: 16, right: 16, top: 8, bottom: 8)),
+                            textStyle: MaterialStateProperty.all(
+                                TextStyle(fontSize: 16))),
+                        child: Text(
+                          'Xoá',
+                          style: TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      ElevatedButton(
+                        onPressed: () {
+                          setState(() {
+                            isAllFilter = false;
+                          });
+                        },
+                        style: ButtonStyle(
+                            elevation: MaterialStateProperty.all<double>(0),
+                            backgroundColor:
+                            MaterialStateProperty.all(Colors.blueAccent),
+                            padding: MaterialStateProperty.all(EdgeInsets.only(
+                                left: 16, right: 16, top: 8, bottom: 8)),
+                            textStyle: MaterialStateProperty.all(
+                                TextStyle(fontSize: 16))),
+                        child: Text(
+                          'Xác nhận',
+                          style: TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.bold),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
               ],
+
             ),
         ],
       ),

@@ -122,7 +122,6 @@ class LabeledCheckbox extends StatelessWidget {
         padding: padding,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Theme(
               data: Theme.of(context).copyWith(
