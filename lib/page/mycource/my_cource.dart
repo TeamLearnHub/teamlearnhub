@@ -30,222 +30,231 @@ class MyCourceState extends State<MyCourcePage> {
   Widget myCourceWidget() {
     return FutureBuilder<List<Data>>(
         builder: (BuildContext context, AsyncSnapshot projectSnap) {
-      if (projectSnap.connectionState == ConnectionState.none &&
-          projectSnap.hasData == null) {
-        return GestureDetector(
-          child: Center(
-            child: Image.network(
-              'https://dzbbmecpa0hd2.cloudfront.net/video/avatar/2019/04/11/14/1554966002_de58c8a6be7d1046.jpg',
-              height: 120,
-              width: 120,
-            ),
-          ),
-        );
-      }
+          if (projectSnap.connectionState == ConnectionState.none &&
+              projectSnap.hasData == null) {
+            return GestureDetector(
+              child: Center(
+                child: Image.network(
+                  'https://dzbbmecpa0hd2.cloudfront.net/video/avatar/2019/04/11/14/1554966002_de58c8a6be7d1046.jpg',
+                  height: 120,
+                  width: 120,
+                ),
+              ),
+            );
+          }
 
-      return Center(
-        child: FutureBuilder<List<Data>>(
-            future: futureData,
-            builder: (context, snapshot) {
-              if (snapshot.hasData) {
-                return ListView.builder(
-                    shrinkWrap: true,
-                    scrollDirection: Axis.vertical,
-                    physics: ClampingScrollPhysics(),
-                    itemCount: snapshot.data.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      Data data = snapshot.data[index];
-                      return new GestureDetector(
-                        onTap: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return MyCourseDetailVesion1Page();
-                          }));
-                        },
-                        child: Card(
-                          margin: EdgeInsets.all(10.0),
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(0.0)),
-                          color: HexColor.fromHex('#FFFFFF'),
-                          elevation: 2,
-                          child: Padding(
-                              padding: const EdgeInsets.all(20.0),
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: <Widget>[
-                                  Row(
+          return Center(
+            child: FutureBuilder<List<Data>>(
+                future: futureData,
+                builder: (context, snapshot) {
+                  if (snapshot.hasData) {
+                    return ListView.builder(
+                        shrinkWrap: true,
+                        scrollDirection: Axis.vertical,
+                        physics: ClampingScrollPhysics(),
+                        itemCount: snapshot.data.length,
+                        itemBuilder: (BuildContext context, int index) {
+                          Data data = snapshot.data[index];
+                          return new GestureDetector(
+                            onTap: () {
+                              Navigator.of(context)
+                                  .push(MaterialPageRoute(builder: (context) {
+                                return MyCourseDetailVesion1Page();
+                              }));
+                            },
+                            child: Card(
+                              margin: EdgeInsets.all(10.0),
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(0.0)),
+                              color: HexColor.fromHex('#FFFFFF'),
+                              elevation: 2,
+                              child: Padding(
+                                  padding: const EdgeInsets.all(20.0),
+                                  child: Column(
                                     mainAxisAlignment: MainAxisAlignment.start,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
+                                    crossAxisAlignment: CrossAxisAlignment
+                                        .start,
                                     children: <Widget>[
-                                      CircleAvatar(
-                                        radius: 30.0,
-                                        backgroundImage:
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment
+                                            .start,
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                        children: <Widget>[
+                                          CircleAvatar(
+                                            radius: 30.0,
+                                            backgroundImage:
                                             AssetImage('assets/logo_class.png'),
-                                        backgroundColor: Colors.transparent,
-                                      ),
-                                      SizedBox(width: 20.0),
-                                      Container(
-                                        constraints:
+                                            backgroundColor: Colors.transparent,
+                                          ),
+                                          SizedBox(width: 20.0),
+                                          Container(
+                                            constraints:
                                             BoxConstraints(maxWidth: 220),
-                                        child: Column(
-                                          mainAxisAlignment:
+                                            child: Column(
+                                              mainAxisAlignment:
                                               MainAxisAlignment.start,
-                                          crossAxisAlignment:
+                                              crossAxisAlignment:
                                               CrossAxisAlignment.start,
-                                          children: <Widget>[
-                                            Text(
-                                                'Khóa học giao tiếp thông minh nơi công sở',
-                                                style: TextStyle(
-                                                    color: HexColor.fromHex(
-                                                        '#212121'),
-                                                    fontSize: 16.0,
-                                                    fontWeight:
-                                                        FontWeight.bold)),
-                                            SizedBox(height: 6.0),
-                                            Wrap(
                                               children: <Widget>[
-                                                Text('Lớp K12  | ',
+                                                Text(
+                                                    'Khóa học giao tiếp thông minh nơi công sở',
                                                     style: TextStyle(
                                                         color: HexColor.fromHex(
-                                                            '#E8943A'),
-                                                        fontSize: 14.0,
-                                                        fontWeight:
-                                                            FontWeight.normal)),
-                                                Text('Trạng thái : Active ',
-                                                    style: TextStyle(
-                                                        color: HexColor.fromHex(
-                                                            '#E8943A'),
+                                                            '#212121'),
                                                         fontSize: 16.0,
                                                         fontWeight:
+                                                        FontWeight.bold)),
+                                                SizedBox(height: 6.0),
+                                                Wrap(
+                                                  children: <Widget>[
+                                                    Text('Lớp K12  | ',
+                                                        style: TextStyle(
+                                                            color: HexColor
+                                                                .fromHex(
+                                                                '#E8943A'),
+                                                            fontSize: 14.0,
+                                                            fontWeight:
+                                                            FontWeight.normal)),
+                                                    Text('Trạng thái : Active ',
+                                                        style: TextStyle(
+                                                            color: HexColor
+                                                                .fromHex(
+                                                                '#E8943A'),
+                                                            fontSize: 16.0,
+                                                            fontWeight:
                                                             FontWeight.normal))
+                                                  ],
+                                                ),
+                                                SizedBox(height: 6.0),
+                                                LinearPercentIndicator(
+                                                  width: 200.0,
+                                                  lineHeight: 3.0,
+                                                  percent: 0.5,
+                                                  backgroundColor:
+                                                  HexColor.fromHex('#e7e7e7'),
+                                                  progressColor:
+                                                  HexColor.fromHex('#AA3234'),
+                                                )
                                               ],
                                             ),
-                                            SizedBox(height: 6.0),
-                                            LinearPercentIndicator(
-                                              width: 200.0,
-                                              lineHeight: 3.0,
-                                              percent: 0.5,
-                                              backgroundColor:
-                                                  HexColor.fromHex('#e7e7e7'),
-                                              progressColor:
-                                                  HexColor.fromHex('#AA3234'),
-                                            )
-                                          ],
-                                        ),
-                                      )
-                                    ],
-                                  ),
-                                  SizedBox(height: 15.0),
-                                  Image(
-                                      image:
-                                          AssetImage('assets/ic_line_big.png')),
-                                  SizedBox(height: 10.0),
-                                  Row(
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: <Widget>[
-                                      Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.start,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: <Widget>[
-                                          Text('Giảng viên ',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight:
-                                                      FontWeight.normal)),
-                                          SizedBox(height: 8.0),
-                                          Text('Nguyễn Huy Anh ',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight: FontWeight.bold)),
-                                          SizedBox(height: 13.0),
-                                          Text('Ngày bắt đầu',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight:
-                                                      FontWeight.normal)),
-                                          SizedBox(height: 7.0),
-                                          Text('09/10/2021',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight: FontWeight.bold)),
+                                          )
                                         ],
                                       ),
-                                      SizedBox(width: 40.0),
-                                      Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.start,
+                                      SizedBox(height: 15.0),
+                                      Image(
+                                          image:
+                                          AssetImage('assets/ic_line_big.png')),
+                                      SizedBox(height: 10.0),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment
+                                            .start,
                                         crossAxisAlignment:
-                                            CrossAxisAlignment.start,
+                                        CrossAxisAlignment.start,
                                         children: <Widget>[
-                                          Text('Chứng chỉ ',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight:
+                                          Column(
+                                            mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                            crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                            children: <Widget>[
+                                              Text('Giảng viên ',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight:
                                                       FontWeight.normal)),
-                                          SizedBox(height: 8.0),
-                                          Text('Chưa có',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight: FontWeight.bold)),
-                                          SizedBox(height: 13.0),
-                                          Text('Ngày kết thúc',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight:
+                                              SizedBox(height: 8.0),
+                                              Text('Nguyễn Huy Anh ',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight: FontWeight
+                                                          .bold)),
+                                              SizedBox(height: 13.0),
+                                              Text('Ngày bắt đầu',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight:
                                                       FontWeight.normal)),
-                                          SizedBox(height: 7.0),
-                                          Text('03/10/2021',
-                                              style: TextStyle(
-                                                  color: HexColor.fromHex(
-                                                      '#111111'),
-                                                  fontSize: 16.0,
-                                                  fontWeight: FontWeight.bold)),
+                                              SizedBox(height: 7.0),
+                                              Text('09/10/2021',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight: FontWeight
+                                                          .bold)),
+                                            ],
+                                          ),
+                                          SizedBox(width: 40.0),
+                                          Column(
+                                            mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                            crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                            children: <Widget>[
+                                              Text('Chứng chỉ ',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight:
+                                                      FontWeight.normal)),
+                                              SizedBox(height: 8.0),
+                                              Text('Chưa có',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight: FontWeight
+                                                          .bold)),
+                                              SizedBox(height: 13.0),
+                                              Text('Ngày kết thúc',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight:
+                                                      FontWeight.normal)),
+                                              SizedBox(height: 7.0),
+                                              Text('03/10/2021',
+                                                  style: TextStyle(
+                                                      color: HexColor.fromHex(
+                                                          '#111111'),
+                                                      fontSize: 16.0,
+                                                      fontWeight: FontWeight
+                                                          .bold)),
+                                            ],
+                                          )
                                         ],
                                       )
                                     ],
-                                  )
-                                ],
-                              )),
-                        ),
-                      );
-                    });
-              } else if (snapshot.hasError) {
-                return Text("${snapshot.error}");
-              }
-              //By default show a loading spinner
-              return Container(
-                height: 20,
-                width: 20,
-                margin: EdgeInsets.all(5),
-                child: CircularProgressIndicator(
-                  strokeWidth: 2.0,
-                  valueColor: new AlwaysStoppedAnimation<Color>(
-                      HexColor.fromHex('#FAA244')),
-                ),
-              );
-            }),
-      );
-    });
+                                  )),
+                            ),
+                          );
+                        });
+                  } else if (snapshot.hasError) {
+                    return Text("${snapshot.error}");
+                  }
+                  //By default show a loading spinner
+                  return Container(
+                    height: 20,
+                    width: 20,
+                    margin: EdgeInsets.all(5),
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2.0,
+                      valueColor: new AlwaysStoppedAnimation<Color>(
+                          HexColor.fromHex('#FAA244')),
+                    ),
+                  );
+                }),
+          );
+        });
   }
 
   @override
@@ -303,7 +312,7 @@ class MyCourceState extends State<MyCourcePage> {
                               shape: BoxShape.circle,
                               color: Color(0xffc32c37),
                               border:
-                                  Border.all(color: Colors.white, width: 1)),
+                              Border.all(color: Colors.white, width: 1)),
                           child: Padding(
                               padding: const EdgeInsets.all(0.0),
                               child: Center(

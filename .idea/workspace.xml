@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535a7369-4462-4976-9dd5-eb6c40108a07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/page/mycource/my_cource_detail_version1.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/page/mycource/my_learning.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/page/mycource/my_lession_detail.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/home/home_tab_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/home/home_tab_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/home/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/home/home_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/mycource/my_class_detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/mycource/my_class_detail.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/page/mycource/my_cource.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/mycource/my_cource.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,5 +70,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="làm luồng học trong khoá học của tôi" />
+    <option name="LAST_COMMIT_MESSAGE" value="làm luồng học trong khoá học của tôi" />
   </component>
 </project>

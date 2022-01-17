@@ -142,118 +142,19 @@ class MyClassDetailState extends State<MyClassDetailPage> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          Text('Giới thiệu',
+                          Text('Tiếng anh Online',
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 16.0,
                               )),
                           SizedBox(height: 10),
-                          Wrap(
-                            alignment: WrapAlignment.start,
-                            children: <Widget>[
-                              InkWell(
-                                onTap: () {
-                                  setState(() {
-                                    // Navigator.of(context)
-                                    //     .push(MaterialPageRoute(builder: (context) {
-                                    //   return MyCourseDetailPage(id: data.sId);
-                                    // }));
-                                  });
-                                },
-                                child: new Container(
-                                  height: 45,
-                                  width: MediaQuery.of(context).size.width / 2,
-                                  decoration: BoxDecoration(
-                                      gradient: LinearGradient(
-                                        colors: [
-                                          HexColor.fromHex('#FAA244'),
-                                          HexColor.fromHex('#FF8400')
-                                        ],
-                                      ),
-                                      borderRadius:
-                                          BorderRadius.all(Radius.circular(5))),
-                                  child: Center(
-                                    child: Text(
-                                      'Chưa hoàn thành'.toUpperCase(),
-                                      style: TextStyle(
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                          SizedBox(height: 10.0),
-                          Text('Lớp : L001',
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10.0),
-                          Text('Ngày bắt đầu : 20/10/2021',
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10.0),
-                          Text('Ngày hết hạn 11 30',
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          SizedBox(height: 10.0),
-                          Text("Chứng chỉ : nội bộ",
-                              style: TextStyle(fontWeight: FontWeight.normal)),
+                          Text('Khoá học tiếng anh online cơ bản',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 16.0,
+                              )),
                           SizedBox(height: 10),
-                          InkWell(
-                            onTap: () {
-                              setState(() {
-                                // Navigator.of(context)
-                                //     .push(MaterialPageRoute(builder: (context) {
-                                //   return MyCourseDetailPage(id: data.sId);
-                                // }));
-                              });
-                            },
-                            child: new Container(
-                              height: 45,
-                              width: MediaQuery.of(context).size.width / 3.5,
-                              decoration: BoxDecoration(
-                                  gradient: LinearGradient(
-                                    colors: [
-                                      HexColor.fromHex('#FAA244'),
-                                      HexColor.fromHex('#FF8400')
-                                    ],
-                                  ),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(5))),
-                              child: Center(
-                                child: Text(
-                                  'Vào học'.toUpperCase(),
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
-                            ),
-                          ),
-                          SizedBox(height: 10.0),
-                          Row(
-                            children: <Widget>[
-                              Text('Khóa học giao tiếp thông minh nơi công sở',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 16.0,
-                                  ))
-                            ],
-                          ),
-                          SizedBox(height: 10.0),
-                          Container(
-                            constraints:
-                                BoxConstraints(maxWidth: double.maxFinite),
-                            child: Wrap(
-                              children: <Widget>[
-                                Text('Tiếng anh Toiec cơ bản ',
-                                    softWrap: false,
-                                    overflow: TextOverflow.ellipsis,
-                                    style: TextStyle(
-                                      color: Colors.black,
-                                      fontSize: 16.0,
-                                    ))
-                              ],
-                            ),
-                          ),
+
                         ],
                       ),
                     ),
@@ -458,7 +359,7 @@ class MyClassDetailState extends State<MyClassDetailPage> {
     // TODO: implement initState
     super.initState();
     _loadToken();
-    //initializePlayer();
+    initializePlayer();
     getCourseDetail();
     futureClass = getCourseClass();
   }
@@ -467,7 +368,7 @@ class MyClassDetailState extends State<MyClassDetailPage> {
   void dispose() {
     // TODO: implement dispose
     video.dispose();
-    //_chewieController.dispose();
+    _chewieController.dispose();
     super.dispose();
   }
 
@@ -521,24 +422,30 @@ class MyClassDetailState extends State<MyClassDetailPage> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              // Expanded(
-              //   child: Center(
-              //     child: _chewieController != null &&
-              //             _chewieController
-              //                 .videoPlayerController.value.isInitialized
-              //         ? Chewie(
-              //             controller: _chewieController,
-              //           )
-              //         : Column(
-              //             mainAxisAlignment: MainAxisAlignment.center,
-              //             children: const [
-              //               CircularProgressIndicator(),
-              //               SizedBox(height: 20),
-              //               Text('Loading'),
-              //             ],
-              //           ),
-              //   ),
-              // ),
+              Stack(
+                alignment: Alignment.topRight,
+                children: [
+                  Container(
+                    height: 300.0,
+                    width: double.infinity,
+                    child: Center(
+                      child: _chewieController != null &&
+                              _chewieController
+                                  .videoPlayerController.value.isInitialized
+                          ? Chewie(
+                              controller: _chewieController,
+                            )
+                          : Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: const [
+                                CircularProgressIndicator(),
+                                Text('Loading'),
+                              ],
+                            ),
+                    ),
+                  ),
+                ],
+              ),
               SizedBox(height: 10.0),
               detailCourse(),
               SizedBox(height: 50.0)
