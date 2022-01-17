@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
 import '../test.dart';
+import 'my_cource_detail_version1.dart';
 
 class MyCourcePage extends StatefulWidget {
   @override
@@ -58,7 +59,7 @@ class MyCourceState extends State<MyCourcePage> {
                         onTap: () {
                           Navigator.of(context)
                               .push(MaterialPageRoute(builder: (context) {
-                            return MyCourseDetailPage();
+                            return MyCourseDetailVesion1Page();
                           }));
                         },
                         child: Card(

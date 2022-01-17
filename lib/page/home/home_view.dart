@@ -400,16 +400,18 @@ class _HomePageState extends State<HomePage> {
                                         SizedBox(width: 13.0, height: 10.0),
                                         GestureDetector(
                                           onTap: () {
-                                            // Navigator.of(context)
-                                            //     .push(MaterialPageRoute(builder: (context) {
-                                            //   return ClassesDetailPage(classesModel: project);
-                                            // }));
+                                            Navigator.of(context).push(
+                                                MaterialPageRoute(
+                                                    builder: (context) {
+                                              return MyCourseDetailPage();
+                                            }));
                                           },
                                           onLongPress: () {
-                                            // Navigator.of(context)
-                                            //     .push(MaterialPageRoute(builder: (context) {
-                                            //   return ClassesDetailPage(classesModel: project);
-                                            // }));
+                                            Navigator.of(context).push(
+                                                MaterialPageRoute(
+                                                    builder: (context) {
+                                              return MyCourseDetailPage();
+                                            }));
                                           },
                                           child: Container(
                                             margin: const EdgeInsets.only(
@@ -437,45 +439,67 @@ class _HomePageState extends State<HomePage> {
                                                 ),
                                                 SizedBox(height: 10.0),
                                                 Row(
-                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
                                                   children: [
-                                                    Icon(Icons.calendar_today_sharp),
+                                                    Icon(Icons
+                                                        .calendar_today_sharp),
                                                     Padding(
-                                                      padding: const EdgeInsets.only(left:8.0),
-                                                      child: Utils.customText(text:"30/10/2021"),
+                                                      padding:
+                                                          const EdgeInsets.only(
+                                                              left: 8.0),
+                                                      child: Utils.customText(
+                                                          text: "30/10/2021"),
                                                     )
                                                   ],
                                                 ),
                                                 SizedBox(height: 10.0),
                                                 Row(
-                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
                                                   children: [
                                                     Icon(Icons.group),
                                                     Padding(
-                                                      padding: const EdgeInsets.only(left:8.0),
-                                                      child: Utils.customText(text:"300 đã tham gia"),
+                                                      padding:
+                                                          const EdgeInsets.only(
+                                                              left: 8.0),
+                                                      child: Utils.customText(
+                                                          text:
+                                                              "300 đã tham gia"),
                                                     )
                                                   ],
                                                 ),
                                                 SizedBox(height: 10.0),
                                                 Row(
-                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
                                                   children: [
-                                                    Icon(Icons.accessibility_sharp),
+                                                    Icon(Icons
+                                                        .accessibility_sharp),
                                                     Padding(
-                                                      padding: const EdgeInsets.only(left:8.0),
-                                                      child: Utils.customText(text:"Số lượng học viên tham gia : 30/50"),
+                                                      padding:
+                                                          const EdgeInsets.only(
+                                                              left: 8.0),
+                                                      child: Utils.customText(
+                                                          text:
+                                                              "Số lượng học viên tham gia : 30/50"),
                                                     )
                                                   ],
                                                 ),
                                                 SizedBox(height: 10.0),
                                                 Row(
-                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
                                                   children: [
-                                                    Icon(Icons.monetization_on_sharp),
+                                                    Icon(Icons
+                                                        .monetization_on_sharp),
                                                     Padding(
-                                                      padding: const EdgeInsets.only(left:8.0),
-                                                      child: Utils.customText(text:"${data.price.toString()} VNĐ"),
+                                                      padding:
+                                                          const EdgeInsets.only(
+                                                              left: 8.0),
+                                                      child: Utils.customText(
+                                                          text:
+                                                              "${data.price.toString()} VNĐ"),
                                                     )
                                                   ],
                                                 ),
@@ -484,29 +508,38 @@ class _HomePageState extends State<HomePage> {
                                                   onPressed: () {
                                                     Navigator.of(context).push(
                                                         MaterialPageRoute(
-                                                            builder:
-                                                                (context) {
-                                                              return MyCourseDetailPage(
-                                                                  id: data.sId);
-                                                            }));
+                                                            builder: (context) {
+                                                      return MyCourseDetailPage(
+                                                          id: data.sId);
+                                                    }));
                                                   },
                                                   style: ButtonStyle(
-                                                      elevation: MaterialStateProperty.all<double>(0),
+                                                      elevation:
+                                                          MaterialStateProperty
+                                                              .all<double>(0),
                                                       backgroundColor:
-                                                      MaterialStateProperty.all(Colors.orangeAccent),
-                                                      padding: MaterialStateProperty.all(EdgeInsets.only(left:16,right:16,top:8,bottom:8)),
+                                                          MaterialStateProperty.all(
+                                                              Colors
+                                                                  .orangeAccent),
+                                                      padding:
+                                                          MaterialStateProperty.all(
+                                                              EdgeInsets.only(
+                                                                  left: 16,
+                                                                  right: 16,
+                                                                  top: 8,
+                                                                  bottom: 8)),
                                                       textStyle:
-                                                      MaterialStateProperty.all(TextStyle(fontSize: 16))),
+                                                          MaterialStateProperty.all(
+                                                              TextStyle(
+                                                                  fontSize: 16))),
                                                   child: Text(
                                                     'Đăng ký'.toUpperCase(),
                                                     style: TextStyle(
                                                         color: Colors.white,
                                                         fontWeight:
-                                                        FontWeight
-                                                            .bold),
+                                                            FontWeight.bold),
                                                   ),
                                                 ),
-
                                                 SizedBox(height: 10.0)
                                               ],
                                             ),
@@ -1276,7 +1309,9 @@ class _FilterAllWidget extends State<FilterAllWidget> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Utils.customText(text: "All filters${listSearchType.length > 0 ? " (${listSearchType.length} Lựa chọn)" : ""}"),
+                  Utils.customText(
+                      text:
+                          "All filters${listSearchType.length > 0 ? " (${listSearchType.length} Lựa chọn)" : ""}"),
                   Icon(
                     isAllFilter ? Icons.cancel_sharp : Icons.expand_more_sharp,
                     color: Colors.black,
@@ -1293,7 +1328,9 @@ class _FilterAllWidget extends State<FilterAllWidget> {
                   ElevatedButton(
                     onPressed: () {
                       setState(() {
-                        type = type == "" || type != listFilter[i]["Type"] ? listFilter[i]["Type"] : "";
+                        type = type == "" || type != listFilter[i]["Type"]
+                            ? listFilter[i]["Type"]
+                            : "";
                       });
                     },
                     style: ButtonStyle(
@@ -1336,26 +1373,40 @@ class _FilterAllWidget extends State<FilterAllWidget> {
                           ),
                           if (type == listFilter[i]["Type"])
                             Padding(
-                              padding: const EdgeInsets.only(top:8.0),
+                              padding: const EdgeInsets.only(top: 8.0),
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
-                                  for (var j = 0;j <getDataSearch(listFilter[i]["Type"]).length;j++)
+                                  for (var j = 0;
+                                      j <
+                                          getDataSearch(listFilter[i]["Type"])
+                                              .length;
+                                      j++)
                                     Padding(
-                                      padding: const EdgeInsets.only(top:8.0,bottom:8),
+                                      padding: const EdgeInsets.only(
+                                          top: 8.0, bottom: 8),
                                       child: LabeledCheckbox(
-                                        value: listSearchType.any((element) => element == getDataSearch(listFilter[i]["Type"])[j]["Value"]),
+                                        value: listSearchType.any((element) =>
+                                            element ==
+                                            getDataSearch(
+                                                    listFilter[i]["Type"])[j]
+                                                ["Value"]),
                                         width: 16,
                                         height: 16,
-                                        label: getDataSearch(listFilter[i]["Type"])[j]["Name"],
+                                        label: getDataSearch(
+                                            listFilter[i]["Type"])[j]["Name"],
                                         color: Colors.black,
                                         padding: EdgeInsets.all(0),
                                         onChanged: (value) {
                                           var list = listSearchType;
-                                          var text = getDataSearch(listFilter[i]["Type"])[j]["Value"];
-                                          if(list.any((element) => element == text)){
-                                            list.removeWhere((element) => element == text);
-                                          }else{
+                                          var text = getDataSearch(
+                                                  listFilter[i]["Type"])[j]
+                                              ["Value"];
+                                          if (list.any(
+                                              (element) => element == text)) {
+                                            list.removeWhere(
+                                                (element) => element == text);
+                                          } else {
                                             list.add(text);
                                           }
                                           setState(() {
@@ -1364,7 +1415,6 @@ class _FilterAllWidget extends State<FilterAllWidget> {
                                         },
                                       ),
                                     )
-
                                 ],
                               ),
                             ),
@@ -1372,59 +1422,62 @@ class _FilterAllWidget extends State<FilterAllWidget> {
                       ),
                     ),
                   ),
-                if(listSearchType.length > 0)
-                Container(
-                  margin: EdgeInsets.only(top:8),
-                  color:Colors.black12,
-                  padding: EdgeInsets.all(8),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      ElevatedButton(
-                        onPressed: () {
-                          setState(() {
-                            listSearchType = [];
-                          });
-                        },
-                        style: ButtonStyle(
-                            elevation: MaterialStateProperty.all<double>(0),
-                            backgroundColor:
-                            MaterialStateProperty.all(Colors.redAccent),
-                            padding: MaterialStateProperty.all(EdgeInsets.only(
-                                left: 16, right: 16, top: 8, bottom: 8)),
-                            textStyle: MaterialStateProperty.all(
-                                TextStyle(fontSize: 16))),
-                        child: Text(
-                          'Xoá',
-                          style: TextStyle(
-                              color: Colors.white, fontWeight: FontWeight.bold),
+                if (listSearchType.length > 0)
+                  Container(
+                    margin: EdgeInsets.only(top: 8),
+                    color: Colors.black12,
+                    padding: EdgeInsets.all(8),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        ElevatedButton(
+                          onPressed: () {
+                            setState(() {
+                              listSearchType = [];
+                            });
+                          },
+                          style: ButtonStyle(
+                              elevation: MaterialStateProperty.all<double>(0),
+                              backgroundColor:
+                                  MaterialStateProperty.all(Colors.redAccent),
+                              padding: MaterialStateProperty.all(
+                                  EdgeInsets.only(
+                                      left: 16, right: 16, top: 8, bottom: 8)),
+                              textStyle: MaterialStateProperty.all(
+                                  TextStyle(fontSize: 16))),
+                          child: Text(
+                            'Xoá',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                          ),
                         ),
-                      ),
-                      ElevatedButton(
-                        onPressed: () {
-                          setState(() {
-                            isAllFilter = false;
-                          });
-                        },
-                        style: ButtonStyle(
-                            elevation: MaterialStateProperty.all<double>(0),
-                            backgroundColor:
-                            MaterialStateProperty.all(Colors.blueAccent),
-                            padding: MaterialStateProperty.all(EdgeInsets.only(
-                                left: 16, right: 16, top: 8, bottom: 8)),
-                            textStyle: MaterialStateProperty.all(
-                                TextStyle(fontSize: 16))),
-                        child: Text(
-                          'Xác nhận',
-                          style: TextStyle(
-                              color: Colors.white, fontWeight: FontWeight.bold),
-                        ),
-                      )
-                    ],
+                        ElevatedButton(
+                          onPressed: () {
+                            setState(() {
+                              isAllFilter = false;
+                            });
+                          },
+                          style: ButtonStyle(
+                              elevation: MaterialStateProperty.all<double>(0),
+                              backgroundColor:
+                                  MaterialStateProperty.all(Colors.blueAccent),
+                              padding: MaterialStateProperty.all(
+                                  EdgeInsets.only(
+                                      left: 16, right: 16, top: 8, bottom: 8)),
+                              textStyle: MaterialStateProperty.all(
+                                  TextStyle(fontSize: 16))),
+                          child: Text(
+                            'Xác nhận',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
-                ),
               ],
-
             ),
         ],
       ),

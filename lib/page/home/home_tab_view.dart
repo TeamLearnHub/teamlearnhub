@@ -16,7 +16,13 @@ class HomeTabPage extends StatefulWidget {
 
 class HomeTabState extends State<HomeTabPage> {
   int _currentIndex = 0;
-  final tabs = [HomePage(), MyCourcePage(), MyCourcePage(), MyAccountPage(),SettingPage()];
+  final tabs = [
+    HomePage(),
+    MyCourcePage(),
+    MyCourcePage(),
+    MyAccountPage(),
+    SettingPage()
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +50,8 @@ class HomeTabState extends State<HomeTabPage> {
               title: Text(
                 'Trang chủ',
                 style: TextStyle(
-                    color: HexColor.fromHex("#AA3234"), fontWeight: FontWeight.bold),
+                    color: HexColor.fromHex("#AA3234"),
+                    fontWeight: FontWeight.bold),
               ),
               backgroundColor: HexColor.fromHex("#FFFFFF")),
           BottomNavigationBarItem(
@@ -52,7 +59,8 @@ class HomeTabState extends State<HomeTabPage> {
               title: Text(
                 'Tìm kiếm',
                 style: TextStyle(
-                    color: HexColor.fromHex("#AA3234"), fontWeight: FontWeight.bold),
+                    color: HexColor.fromHex("#AA3234"),
+                    fontWeight: FontWeight.bold),
               ),
               backgroundColor: HexColor.fromHex("#FFFFFF")),
           BottomNavigationBarItem(
@@ -60,7 +68,8 @@ class HomeTabState extends State<HomeTabPage> {
               title: Text(
                 'Khoá học của tôi',
                 style: TextStyle(
-                    color: HexColor.fromHex("#AA3234"), fontWeight: FontWeight.bold),
+                    color: HexColor.fromHex("#AA3234"),
+                    fontWeight: FontWeight.bold),
               ),
               backgroundColor: HexColor.fromHex("#FFFFFF")),
           BottomNavigationBarItem(
@@ -68,7 +77,8 @@ class HomeTabState extends State<HomeTabPage> {
               title: Text(
                 'Tài khoản',
                 style: TextStyle(
-                    color: HexColor.fromHex("#AA3234"), fontWeight: FontWeight.bold),
+                    color: HexColor.fromHex("#AA3234"),
+                    fontWeight: FontWeight.bold),
               ),
               backgroundColor: HexColor.fromHex("#FFFFFF")),
           BottomNavigationBarItem(
@@ -76,7 +86,8 @@ class HomeTabState extends State<HomeTabPage> {
               title: Text(
                 'Cài đặt',
                 style: TextStyle(
-                    color: HexColor.fromHex("#AA3234"), fontWeight: FontWeight.bold),
+                    color: HexColor.fromHex("#AA3234"),
+                    fontWeight: FontWeight.bold),
               ),
               backgroundColor: HexColor.fromHex("#FFFFFF"))
         ],

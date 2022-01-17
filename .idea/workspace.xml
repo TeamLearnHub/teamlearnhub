@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="535a7369-4462-4976-9dd5-eb6c40108a07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/page/mycource/my_cource_detail_version1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/page/mycource/my_learning.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/page/mycource/my_lession_detail.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/account/my_account.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/account/my_account.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/home/home_tab_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/home/home_tab_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/home/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/home/home_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/mycource/my_cource.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/mycource/my_cource.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/nguyencuong/.android/avd/4.7_WXGA_API_30.avd]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,7 +45,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -42,6 +54,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,47 +68,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="453" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1642081662740">
-      <screen x="0" y="23" width="1280" height="703" />
-    </state>
-    <state x="453" y="96" key="#com.intellij.ide.util.MemberChooser/0.23.1280.700@0.23.1280.700" timestamp="1641917490321" />
-    <state x="453" y="96" key="#com.intellij.ide.util.MemberChooser/0.23.1280.703@0.23.1280.703" timestamp="1642081662740" />
-    <state x="77" y="23" key="CommitChangelistDialog2" timestamp="1641900552133">
-      <screen x="0" y="23" width="1280" height="696" />
-    </state>
-    <state x="77" y="23" key="CommitChangelistDialog2/0.23.1280.696@0.23.1280.696" timestamp="1641900552133" />
-    <state width="1280" height="124" key="GridCell.Tab.0.bottom" timestamp="1642091822248">
-      <screen x="0" y="23" width="1280" height="706" />
-    </state>
-    <state width="1280" height="112" key="GridCell.Tab.0.bottom/0.23.1280.696@0.23.1280.696" timestamp="1641826070873" />
-    <state width="1280" height="189" key="GridCell.Tab.0.bottom/0.23.1280.700@0.23.1280.700" timestamp="1642076958360" />
-    <state width="1280" height="124" key="GridCell.Tab.0.bottom/0.23.1280.703@0.23.1280.703" timestamp="1642088794932" />
-    <state width="1280" height="124" key="GridCell.Tab.0.bottom/0.23.1280.706@0.23.1280.706" timestamp="1642091822248" />
-    <state width="1280" height="124" key="GridCell.Tab.0.center" timestamp="1642091822247">
-      <screen x="0" y="23" width="1280" height="706" />
-    </state>
-    <state width="1280" height="112" key="GridCell.Tab.0.center/0.23.1280.696@0.23.1280.696" timestamp="1641826070872" />
-    <state width="1280" height="189" key="GridCell.Tab.0.center/0.23.1280.700@0.23.1280.700" timestamp="1642076958359" />
-    <state width="1280" height="124" key="GridCell.Tab.0.center/0.23.1280.703@0.23.1280.703" timestamp="1642088794932" />
-    <state width="1280" height="124" key="GridCell.Tab.0.center/0.23.1280.706@0.23.1280.706" timestamp="1642091822247" />
-    <state width="1280" height="124" key="GridCell.Tab.0.left" timestamp="1642091822247">
-      <screen x="0" y="23" width="1280" height="706" />
-    </state>
-    <state width="1280" height="112" key="GridCell.Tab.0.left/0.23.1280.696@0.23.1280.696" timestamp="1641826070872" />
-    <state width="1280" height="189" key="GridCell.Tab.0.left/0.23.1280.700@0.23.1280.700" timestamp="1642076958358" />
-    <state width="1280" height="124" key="GridCell.Tab.0.left/0.23.1280.703@0.23.1280.703" timestamp="1642088794931" />
-    <state width="1280" height="124" key="GridCell.Tab.0.left/0.23.1280.706@0.23.1280.706" timestamp="1642091822247" />
-    <state width="1280" height="124" key="GridCell.Tab.0.right" timestamp="1642091822248">
-      <screen x="0" y="23" width="1280" height="706" />
-    </state>
-    <state width="1280" height="112" key="GridCell.Tab.0.right/0.23.1280.696@0.23.1280.696" timestamp="1641826070873" />
-    <state width="1280" height="189" key="GridCell.Tab.0.right/0.23.1280.700@0.23.1280.700" timestamp="1642076958359" />
-    <state width="1280" height="124" key="GridCell.Tab.0.right/0.23.1280.703@0.23.1280.703" timestamp="1642088794932" />
-    <state width="1280" height="124" key="GridCell.Tab.0.right/0.23.1280.706@0.23.1280.706" timestamp="1642091822248" />
-    <state x="305" y="50" width="670" height="676" key="search.everywhere.popup" timestamp="1642088291100">
-      <screen x="0" y="23" width="1280" height="703" />
-    </state>
-    <state x="305" y="50" width="670" height="676" key="search.everywhere.popup/0.23.1280.703@0.23.1280.703" timestamp="1642088291100" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
